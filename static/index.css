@@ -15,6 +15,10 @@ h1{
     display: flex;
     justify-content: space-around;
 }
+.myself{
+    display: flex;
+    align-items: center;
+}
 .presentation{
     border: 1px solid #D7ECFF;
     border-radius: 20px;
@@ -29,6 +33,15 @@ h1{
 .bitmoji{
     margin-top: 40px;
     width: 150px;
+}
+.dossier{
+    width: 200px;
+    height: 200px;
+}
+.cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .curriculum-vitae{
     border: 1px solid #E6D8EC;
@@ -104,7 +117,7 @@ h1{
     border-radius: 20px;
     width: 690px;
     height: 300px;
-    background-color: #F1EAE0;
+    background-color: #d2efdb;
     font-family: 'Kodchasan';
     color:black ;
     font-weight: 100;
