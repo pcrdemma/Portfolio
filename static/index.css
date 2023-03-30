@@ -1,17 +1,20 @@
-body{
+body {
     background-color: black;
 }
-h1{
+
+h1 {
     font-family: 'Kodchasan';
-    color:white ;
+    color: white;
     font-weight: 100;
 }
-.aboutme-title{
+
+.aboutme-title {
     display: flex;
     justify-content: center;
     /* margin-bottom: 20px; */
 }
-.two-first-info{
+
+.two-first-info {
     display: flex;
     justify-content: space-around;
 }
@@ -26,11 +29,12 @@ h1{
     height: 300px;
     background-color: #D7ECFF;
     font-family: 'Kodchasan';
-    color:black ;
+    color: black;
     font-weight: 100;
     /* filter: drop-shadow(0 0 0.50rem #D7ECFF); */
 }
-.bitmoji{
+
+.bitmoji {
     margin-top: 40px;
     width: 150px;
 }
@@ -50,27 +54,31 @@ h1{
     height: 300px;
     background-color: #E6D8EC;
     font-family: 'Kodchasan';
-    color:black ;
+    color: black;
     font-weight: 100;
     text-align: center;
     /* filter: drop-shadow(0 0 0.50rem #E6D8EC); */
 
 }
-.three-bottom-info{
+
+.three-bottom-info {
     display: flex;
     justify-content: space-around;
 }
-.contacts{
+
+.contacts {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
-.envelope{
+
+.envelope {
     width: 30px;
     height: 20px;
 }
-.mail{
+
+.mail {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,44 +88,131 @@ h1{
     height: 40px;
     background-color: #FFF5C1;
     font-family: 'Kodchasan';
-    color:black ;
+    color: black;
     font-weight: 100;
     text-align: center;
 }
-.network{
+
+.network {
     display: flex;
     justify-content: space-evenly
 }
-.social{
+
+.social {
     border: 1px solid #FFF5C1;
     border-radius: 20px;
     width: 300px;
     height: 40px;
     background-color: #FFF5C1;
     font-family: 'Kodchasan';
-    color:black ;
+    color: black;
     font-weight: 100;
     text-align: center;
 }
-.github{
+
+.github {
     width: 40px;
     height: 40px;
 }
-.linkedin{
+
+.linkedin {
     width: 40px;
     height: 40px;
 }
-.discord{
+
+.discord {
     width: 40px;
     height: 40px;
 }
-.search{
+
+.search {
     margin-top: 30px;
     border: 1px solid #F1EAE0;
     border-radius: 20px;
     width: 690px;
     height: 300px;
     background-color: #d2efdb;
+    font-family: 'Kodchasan';
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+
+.trait {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 1063px;
+}
+
+.schoolprojects-title {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}
+
+.three-projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hangman-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hangman {
+    width: 66px;
+    height: 66px;
+}
+
+.hangman-web {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Kodchasan';
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+.groupie-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.groupie {
+    width: 260;
+    height: 106px;
+}
+
+.groupie-tracker {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Kodchasan';
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+.forum {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Kodchasan';
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+
+.copyright{
     font-family: 'Kodchasan';
     color:black ;
     font-weight: 100;
