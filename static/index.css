@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 h1 {
@@ -15,6 +15,7 @@ h1 {
 }
 
 .two-first-info {
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -23,9 +24,11 @@ h1 {
     align-items: center;
 }
 .presentation{
+    /* box-shadow: 0 0 11px rgba(33,33,33,.2); */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     border: 1px solid #D7ECFF;
     border-radius: 20px;
-    width: 630px;
+    width: 650px;
     height: 300px;
     background-color: #D7ECFF;
     font-family: 'Kodchasan';
@@ -33,26 +36,34 @@ h1 {
     font-weight: 100;
     /* filter: drop-shadow(0 0 0.50rem #D7ECFF); */
 }
+/* .presentation:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+} */
 
 .bitmoji {
+    margin-left: 20px;
     margin-top: 40px;
     width: 150px;
 }
 .dossier{
+    margin-top: 20px;
     width: 200px;
     height: 200px;
 }
+
 .cv{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .curriculum-vitae{
-    border: 1px solid #E6D8EC;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ECD8D8;
     border-radius: 20px;
-    width: 350px;
+    width: 400px;
     height: 300px;
-    background-color: #E6D8EC;
+    background-color: #ECD8D8;
     font-family: 'Kodchasan';
     color: black;
     font-weight: 100;
@@ -62,6 +73,7 @@ h1 {
 }
 
 .three-bottom-info {
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -79,18 +91,23 @@ h1 {
 }
 
 .mail {
+    transition: box-shadow .3s; 
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #FFF5C1;
+    border: 1px solid #E6D8EC;
     border-radius: 20px;
     width: 300px;
     height: 40px;
-    background-color: #FFF5C1;
+    background-color: #E6D8EC;
     font-family: 'Kodchasan';
     color: black;
     font-weight: 100;
     text-align: center;
+}
+.mail:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .network {
@@ -99,33 +116,112 @@ h1 {
 }
 
 .social {
-    border: 1px solid #FFF5C1;
+    transition: box-shadow .3s; 
+    border: 1px solid #E6D8EC;
     border-radius: 20px;
     width: 300px;
     height: 40px;
-    background-color: #FFF5C1;
+    background-color: #E6D8EC;
     font-family: 'Kodchasan';
     color: black;
     font-weight: 100;
     text-align: center;
 }
+.social:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
 
 .github {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .linkedin {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .discord {
-    width: 40px;
+    width: 30px;
+    height: 30px;
+}
+.function {
+    display: flex;
+    justify-content: space-around;
+    transition: box-shadow .3s; 
+    border: 1px solid #E6D8EC;
+    border-radius: 20px;
+    width: 300px;
     height: 40px;
+    background-color: #E6D8EC;
+    font-family: 'Kodchasan';
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+.function:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.translation{
+    display:flex;
+    align-items: center;
 }
 
+.slider {
+    width: 75px;
+    height: 21px;
+    position: relative;
+    border-radius: 34px;
+    background-color: black;
+    margin: 0 auto;
+  }
+  
+  .slider input[type=checkbox] {
+    display: none;
+  }
+  
+  .slider label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+  }
+  
+  .slider input[type=checkbox]:checked + label {
+    left: 57px;
+  }
+  .french{
+    width: 20px;
+    height: 20px;
+  }
+  .english{
+    width: 20px;
+    height: 20px;
+  }
+  .light{
+    width: 20px;
+    height: 20px;
+  }
+  .dark{
+    width: 20px;
+    height: 20px;
+  }
+  .line{
+    height: 30px;
+  }
+  .light-mode{
+    display: flex;
+    margin-left: 20px;
+  }
 .search {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     margin-top: 30px;
     border: 1px solid #F1EAE0;
     border-radius: 20px;
@@ -137,13 +233,19 @@ h1 {
     font-weight: 100;
     text-align: center;
 }
-
-.trait {
+.seperate{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+}
+
+.trait {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 90px;
     border: 1px solid white;
     width: 1063px;
+}
+.top-schoolprojects{
+    margin-top: 50px;
 }
 
 .schoolprojects-title {
@@ -155,20 +257,24 @@ h1 {
 .three-projects {
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 .hangman-project {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
 }
 
 .hangman {
+    padding-top:30px;
     width: 66px;
     height: 66px;
 }
 
 .hangman-web {
+    transition: box-shadow .3s;
     width: 300px;
     height: 200px;
     background-color: white;
@@ -179,17 +285,25 @@ h1 {
     font-weight: 100;
     text-align: center;
 }
+.hangman-web:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
 .groupie-project {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .groupie {
+    padding-top:10px;
     width: 260;
     height: 106px;
 }
 
 .groupie-tracker {
+    transition: box-shadow .3s;
     width: 300px;
     height: 200px;
     background-color: white;
@@ -200,7 +314,11 @@ h1 {
     font-weight: 100;
     text-align: center;
 }
+.groupie-tracker:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
 .forum {
+    transition: box-shadow .3s; 
     width: 300px;
     height: 200px;
     background-color: white;
@@ -210,6 +328,9 @@ h1 {
     color: black;
     font-weight: 100;
     text-align: center;
+}
+.forum:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .copyright{
