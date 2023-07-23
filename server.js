@@ -1,16 +1,32 @@
-// Import required modules
 const express = require('express');
-
-// Create an instance of Express
 const app = express();
+const routes = require('./src/routes/routes')
+const port = 8086;
 
 // Define a route
-app.get('/', (req, res) => {
-  res.send('Hello, this is your Node.js server!');
+// app.get('/', (req, res) => {
+//   res.send('Hello, this is your Node.js server!');
+// });
+
+app.use('/css/:filename', (req, res) =>{
+    var filename = req.params.filename;
+    res.sendFile(__dirname + '/public/style/' + filename);
 });
 
+app.use('/img/:filename', (req, res) =>{
+    var filename = req.params.filename;
+    res.sendFile(__dirname + '/public/img/' + filename);
+});
+
+app.use('/js/:filename', (req, res) =>{
+    var filename = req.params.filename;
+    res.sendFile(__dirname + '/public/script/' + filename);
+});
+
+routes(app);
+
 // Start the server
-const port = 8086; // You can choose any available port
+ 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on http://localhost:${port}/home`);
 });

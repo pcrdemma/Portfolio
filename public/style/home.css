@@ -1,0 +1,15 @@
+ 
+.header{
+    height: 13vh;
+    width: 100%;
+    background-color: #CEDFFF;
+    color :black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Kodchasan', sans-serif;   
+}
+
+#logo-portfolio{
+    height: 30px;    
+}
