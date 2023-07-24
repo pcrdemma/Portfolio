@@ -1,15 +1,148 @@
- 
-.header{
+/*-----HEADER-----*/
+.header {
     height: 13vh;
     width: 100%;
     background-color: #CEDFFF;
-    color :black;
+    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Kodchasan', sans-serif;   
+    font-family: 'Kodchasan', sans-serif;
+    position: fixed;
+    top: 0;
+    margin-left: -8px;
+
 }
 
-#logo-portfolio{
-    height: 30px;    
+#logo-portfolio {
+    height: 30px;
+}
+
+.home-header {
+    cursor: pointer;
+}
+
+.about-me-header {
+    cursor: pointer;
+}
+
+.project-header {
+    cursor: pointer;
+}
+
+.contact-header {
+    cursor: pointer;
+}
+
+/*----- END HEADER-----*/
+/*-----HOME SQAURE FIRST PART (DETAILS ABOUT ME)-----*/
+
+.square-home {
+    height: 345px;
+    border: 2px solid #CEDFFF;
+    font-family: 'Kodchasan', sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.data-left-part {
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+}
+
+.data-left {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.status {
+    font-size: 20px;
+}
+
+.studying-place {
+    display: flex;
+    font-size: 14px;
+}
+
+#ping {
+    height: 20px;
+    width: 20px;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #8BA5D8;
+}
+
+.email-part {
+    display: flex;
+    font-size: 14px;
+}
+
+#email {
+    height: 20px;
+    width: 20px;
+}
+
+.title-social-network {
+    font-size: 14px;
+}
+
+.social-network {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+#linkedin {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#github {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+/*-----HOME SQUARE SECOND PART (PICTURE) */
+
+.data-right-part {
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.data-right {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#emma-picard {
+    height: 250px;
+    width: 250px;
 }
