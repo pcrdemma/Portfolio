@@ -1,3 +1,15 @@
+/*-----SCROLL BAR STYLE-----*/
+body::-webkit-scrollbar {
+    width: 8px;               
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #8BA5D8;    
+    border-radius: 20px; 
+  }
+
+/*-----END SCROLL BAR STYLE-----*/
+
 /*-----HEADER-----*/
 .header {
     height: 13vh;
@@ -35,10 +47,11 @@
 }
 
 /*----- END HEADER-----*/
-/*-----HOME SQAURE FIRST PART (DETAILS ABOUT ME)-----*/
+
+/*-----HOME SQAURE LEFT PART (DETAILS ABOUT ME)-----*/
 
 .square-home {
-    height: 345px;
+    height: 385px;
     border: 2px solid #CEDFFF;
     font-family: 'Kodchasan', sans-serif;
     width: 95%;
@@ -46,15 +59,15 @@
     display: flex;
 }
 
-.data-left-part {
+.home-left-part {
     width: 50%;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    margin-top: 58px;
+    margin-top: 80px;
 }
 
-.data-left {
+.home-left {
     width: 53%;
     display: flex;
     flex-direction: column;
@@ -123,18 +136,18 @@ a:hover {
     width: 25px;
     cursor: pointer;
 }
+/*-----END HOME SQUARE LEFT PART */
 
-/*-----HOME SQUARE SECOND PART (PICTURE) */
+/*-----HOME SQUARE RIGHT PART (PICTURE OF ME) */
 
-.data-right-part {
+.home-right-part {
     width: 50%;
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
-.data-right {
+.home-right {
     width: 53%;
     display: flex;
     flex-direction: column;
@@ -146,3 +159,88 @@ a:hover {
     height: 250px;
     width: 250px;
 }
+/*----- END HOME SQUARE RIGHT PART (PICTURE OF ME) */
+
+/*-----SPACEBAR BETWEEN HOME AND ABOUT ME */
+
+.spacebar {
+    height: 2px;
+    width: 100%;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #CEDFFF ;
+}
+
+/*----- END SPACEBAR BETWEEN HOME AND ABOUT ME */
+
+/*-----ABOUT ME SQAURE LEFT PART (WORD CLOUD)-----*/
+
+.square-about-me {
+    height: 390px;
+    border: 2px solid #CEDFFF;
+    font-family: 'Kodchasan', sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about-me-left-part{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-cloud-image{
+    margin-right: 150px;
+}
+
+#word-cloud{
+   height: 300px;
+   width: 300px;
+}
+/*-----ABOUT ME SQAURE LEFT PART (WORD CLOUD)-----*/
+
+/*-----ABOUT ME SQAURE RIGHT PART (TEXT)-----*/
+
+.about-me-right-part{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-me-title{
+    margin-right: 100px;
+}
+
+.about-me-text{
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.download-resume{
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+    background-color: #CEDFFF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+#download{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+/*-----ABOUT ME SQAURE RIGHT PART (TEXT)-----*/
+
+
+
