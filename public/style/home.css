@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
     margin-left: -8px;
 
 }
-
+/*-----LOGO-----*/
 #logo-portfolio {
     height: 30px;
 }
@@ -87,10 +87,15 @@ body::-webkit-scrollbar {
     display: flex;
     font-size: 14px;
 }
-
+/*-----STUDYING PLACE IMAGE-----*/
 #ping {
     height: 20px;
     width: 20px;
+}
+
+.name-school:hover{
+    cursor: pointer;
+    color: red;
 }
 
 a {
@@ -101,7 +106,6 @@ a {
 
 a:hover {
     cursor: pointer;
-    color: #8BA5D8;
 }
 
 .email-part {
@@ -109,6 +113,11 @@ a:hover {
     font-size: 14px;
 }
 
+.email:hover{
+    cursor: pointer;
+    color: #fed049;
+}
+/*-----EMAIL IMAGE-----*/
 #email {
     height: 20px;
     width: 20px;
@@ -124,13 +133,13 @@ a:hover {
     justify-content: space-between;
     margin-top: 8px;
 }
-
+/*-----LINKEDIN IMAGE-----*/
 #linkedin {
     height: 25px;
     width: 25px;
     cursor: pointer;
 }
-
+/*-----GITHUB IMAGE-----*/
 #github {
     height: 25px;
     width: 25px;
@@ -154,7 +163,7 @@ a:hover {
     justify-content: center;
     margin: 0 auto;
 }
-
+/*-----PICTURE OF ME-----*/
 #emma-picard {
     height: 250px;
     width: 250px;
@@ -165,7 +174,6 @@ a:hover {
 
 .spacebar {
     height: 2px;
-    width: 100%;
     width: 95%;
     margin: 0 auto;
     background-color: #CEDFFF ;
@@ -195,12 +203,12 @@ a:hover {
 .word-cloud-image{
     margin-right: 150px;
 }
-
+/*-----WORD CLOUD IMAGE-----*/
 #word-cloud{
    height: 300px;
    width: 300px;
 }
-/*-----ABOUT ME SQAURE LEFT PART (WORD CLOUD)-----*/
+/*-----END ABOUT ME SQAURE LEFT PART (WORD CLOUD)-----*/
 
 /*-----ABOUT ME SQAURE RIGHT PART (TEXT)-----*/
 
@@ -225,9 +233,8 @@ a:hover {
 .download-resume{
     border-radius: 50px;
     height: 40px;
-    width: 200px;
+    width: 250px;
     background-color: #CEDFFF;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,12 +242,180 @@ a:hover {
     margin-right: 100px;
 }
 
+.download-resume:hover{
+    cursor: pointer;
+    background-color: #8BA5D8;
+}
+
+.download{
+    color: white;
+}
+
+.download:hover{
+    cursor: pointer;
+}
+
+/*-----DOWNLOAD ICON-----*/
 #download{
     height: 20px;
     width: 20px;
     cursor: pointer;
 }
-/*-----ABOUT ME SQAURE RIGHT PART (TEXT)-----*/
+/*-----END ABOUT ME SQAURE RIGHT PART (TEXT)-----*/
+
+/*-----PROJECTS PART----- */
+.square-projects {
+    height: 390px;
+    border: 2px solid #CEDFFF;
+    font-family: 'Kodchasan', sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*-----END PROJECTS PART----- */
 
 
+/*-----CONTACTS PART----- */
+.square-contact {
+    height: 440px;
+    border: 2px solid #CEDFFF;
+    font-family: 'Kodchasan', sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
 
+.contact-title{
+    font-family: 'Kodchasan', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    width: 100%;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.content-data-contact{
+    display: flex;
+    height: 95%;
+    width: 100%;
+}
+
+
+.contact-left-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 47.5%;
+    height: 95%;
+}
+
+
+.email-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CEDFFF;
+    height: 75px;
+    width: 350px;
+
+}
+
+.data-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.email-title{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 14px;
+}
+
+.email-link{
+    color: white;
+}
+
+.email-link:hover{
+    color: #8BA5D8;
+    cursor: pointer;
+}
+
+#email-contact{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.social-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CEDFFF;
+    height: 75px;
+    width: 350px;
+}
+
+.image-social-contact{
+    margin-right: 10px;
+}
+
+.data-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Kodchasan', sans-serif;
+    margin-right: 30px;
+}
+
+.social-title{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 14px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+
+#social-contact{
+    height: 50px;
+    width: 50px;
+}
+
+.seperate-bar-contact {
+    margin-top: 25px;
+    height: 85%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bar-contact{
+    height: 100%;
+    width: 2px;
+    background-color: #CEDFFF ;
+}
+
+
+/*-----END CONTACTS PART----- */
+
+/*-----FOOTER----- */
+.copyright{
+    font-family: 'Kodchasan', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----END FOOTER----- */
