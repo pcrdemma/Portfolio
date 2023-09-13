@@ -1,12 +1,12 @@
 /*-----SCROLL BAR STYLE-----*/
 body::-webkit-scrollbar {
-    width: 8px;               
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #8BA5D8;    
-    border-radius: 20px; 
-  }
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #8BA5D8;
+    border-radius: 20px;
+}
 
 /*-----END SCROLL BAR STYLE-----*/
 
@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
     margin-left: -8px;
 
 }
+
 /*-----LOGO-----*/
 #logo-portfolio {
     height: 30px;
@@ -87,13 +88,14 @@ body::-webkit-scrollbar {
     display: flex;
     font-size: 14px;
 }
+
 /*-----STUDYING PLACE IMAGE-----*/
 #ping {
     height: 20px;
     width: 20px;
 }
 
-.name-school:hover{
+.name-school:hover {
     cursor: pointer;
     color: red;
 }
@@ -113,10 +115,11 @@ a:hover {
     font-size: 14px;
 }
 
-.email:hover{
+.email:hover {
     cursor: pointer;
     color: #fed049;
 }
+
 /*-----EMAIL IMAGE-----*/
 #email {
     height: 20px;
@@ -133,18 +136,21 @@ a:hover {
     justify-content: space-between;
     margin-top: 8px;
 }
+
 /*-----LINKEDIN IMAGE-----*/
 #linkedin {
     height: 25px;
     width: 25px;
     cursor: pointer;
 }
+
 /*-----GITHUB IMAGE-----*/
 #github {
     height: 25px;
     width: 25px;
     cursor: pointer;
 }
+
 /*-----END HOME SQUARE LEFT PART */
 
 /*-----HOME SQUARE RIGHT PART (PICTURE OF ME) */
@@ -163,11 +169,13 @@ a:hover {
     justify-content: center;
     margin: 0 auto;
 }
+
 /*-----PICTURE OF ME-----*/
 #emma-picard {
     height: 250px;
     width: 250px;
 }
+
 /*----- END HOME SQUARE RIGHT PART (PICTURE OF ME) */
 
 /*-----SPACEBAR BETWEEN HOME AND ABOUT ME */
@@ -176,7 +184,7 @@ a:hover {
     height: 2px;
     width: 95%;
     margin: 0 auto;
-    background-color: #CEDFFF ;
+    background-color: #CEDFFF;
 }
 
 /*----- END SPACEBAR BETWEEN HOME AND ABOUT ME */
@@ -192,7 +200,7 @@ a:hover {
     display: flex;
 }
 
-.about-me-left-part{
+.about-me-left-part {
     width: 50%;
     /* border: 1px solid black; */
     display: flex;
@@ -200,19 +208,21 @@ a:hover {
     justify-content: center;
 }
 
-.word-cloud-image{
+.word-cloud-image {
     margin-right: 150px;
 }
+
 /*-----WORD CLOUD IMAGE-----*/
-#word-cloud{
-   height: 300px;
-   width: 300px;
+#word-cloud {
+    height: 300px;
+    width: 300px;
 }
+
 /*-----END ABOUT ME SQAURE LEFT PART (WORD CLOUD)-----*/
 
 /*-----ABOUT ME SQAURE RIGHT PART (TEXT)-----*/
 
-.about-me-right-part{
+.about-me-right-part {
     width: 50%;
     /* border: 1px solid black; */
     display: flex;
@@ -221,16 +231,16 @@ a:hover {
     flex-direction: column;
 }
 
-.about-me-title{
+.about-me-title {
     margin-right: 100px;
 }
 
-.about-me-text{
+.about-me-text {
     margin-right: 100px;
     text-align: justify;
 }
 
-.download-resume{
+.download-resume {
     border-radius: 50px;
     height: 40px;
     width: 250px;
@@ -242,25 +252,26 @@ a:hover {
     margin-right: 100px;
 }
 
-.download-resume:hover{
+.download-resume:hover {
     cursor: pointer;
     background-color: #8BA5D8;
 }
 
-.download{
+.download {
     color: white;
 }
 
-.download:hover{
+.download:hover {
     cursor: pointer;
 }
 
 /*-----DOWNLOAD ICON-----*/
-#download{
+#download {
     height: 20px;
     width: 20px;
     cursor: pointer;
 }
+
 /*-----END ABOUT ME SQAURE RIGHT PART (TEXT)-----*/
 
 /*-----PROJECTS PART----- */
@@ -287,7 +298,7 @@ a:hover {
     flex-direction: column;
 }
 
-.contact-title{
+.contact-title {
     font-family: 'Kodchasan', sans-serif;
     display: flex;
     justify-content: center;
@@ -297,14 +308,14 @@ a:hover {
     margin-top: 15px;
 }
 
-.content-data-contact{
+.content-data-contact {
     display: flex;
     height: 95%;
     width: 100%;
 }
 
 
-.contact-left-part{
+.contact-left-part {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,7 +325,7 @@ a:hover {
 }
 
 
-.email-square{
+.email-square {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,7 +335,7 @@ a:hover {
 
 }
 
-.data-email{
+.data-email {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,27 +343,27 @@ a:hover {
     font-family: 'Kodchasan', sans-serif;
 }
 
-.email-title{
+.email-title {
     font-family: 'Kodchasan', sans-serif;
     font-size: 14px;
 }
 
-.email-link{
+.email-link {
     color: white;
 }
 
-.email-link:hover{
+.email-link:hover {
     color: #8BA5D8;
     cursor: pointer;
 }
 
-#email-contact{
+#email-contact {
     height: 50px;
     width: 50px;
-    
+
 }
 
-.social-square{
+.social-square {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,11 +372,11 @@ a:hover {
     width: 350px;
 }
 
-.image-social-contact{
+.image-social-contact {
     margin-right: 10px;
 }
 
-.data-social{
+.data-social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,12 +385,12 @@ a:hover {
     margin-right: 30px;
 }
 
-.social-title{
+.social-title {
     font-family: 'Kodchasan', sans-serif;
     font-size: 14px;
 }
 
-.social-link{
+.social-link {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -387,7 +398,7 @@ a:hover {
 
 }
 
-#social-contact{
+#social-contact {
     height: 50px;
     width: 50px;
 }
@@ -398,24 +409,89 @@ a:hover {
     width: 5%;
     display: flex;
     justify-content: center;
-    
+
 }
 
-.bar-contact{
+.bar-contact {
     height: 100%;
     width: 2px;
-    background-color: #CEDFFF ;
+    background-color: #CEDFFF;
 }
 
 
 /*-----END CONTACTS PART----- */
 
+/*-----POPUP LINKEDIN----- */
+#overlayLinkedin {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.616);
+   
+}
+
+#popupLinkedin {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    font-family: 'Kodchasan', sans-serif;
+    border: #CEDFFF 2px solid;
+   
+}
+
+.top-content{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkedin-image{
+    width: 35px;
+    height: 35px;
+}
+
+.linkedin-qrcode{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkedin-qrcode{
+    width: 250px;
+    height: 250px;
+}
+
+.linkedin-link{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-link:hover{
+    cursor: pointer;
+    color: #0b69c7;
+}
+
 /*-----FOOTER----- */
-.copyright{
+.copyright {
     font-family: 'Kodchasan', sans-serif;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /*-----END FOOTER----- */
