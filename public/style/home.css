@@ -287,9 +287,9 @@ a:hover {
 /*-----END PROJECTS PART----- */
 
 
-/*-----CONTACTS PART----- */
+/*-----CONTACTS LEFT PART----- */
 .square-contact {
-    height: 440px;
+    height: 550px;
     border: 2px solid #CEDFFF;
     font-family: 'Kodchasan', sans-serif;
     width: 95%;
@@ -322,6 +322,7 @@ a:hover {
     justify-content: space-evenly;
     width: 47.5%;
     height: 95%;
+    
 }
 
 
@@ -331,7 +332,7 @@ a:hover {
     align-items: center;
     background-color: #CEDFFF;
     height: 75px;
-    width: 350px;
+    width: 430px;
 
 }
 
@@ -353,7 +354,7 @@ a:hover {
 }
 
 .email-link:hover {
-    color: #8BA5D8;
+    color: #fed049;
     cursor: pointer;
 }
 
@@ -369,7 +370,7 @@ a:hover {
     align-items: center;
     background-color: #CEDFFF;
     height: 75px;
-    width: 350px;
+    width: 430px;
 }
 
 .image-social-contact {
@@ -418,8 +419,114 @@ a:hover {
     background-color: #CEDFFF;
 }
 
+/*-----END CONTACTS LEFT PART----- */
 
-/*-----END CONTACTS PART----- */
+/*-----CONTACTS RIGHT PART----- */
+.contact-right-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+input#first-name.input-first-name {
+    border: 1px solid #8BA5D8;
+    color: #8ba5d8ad;
+    height: 35px;
+    width: 350px;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+input#first-name.input-first-name:focus {
+    outline: none;
+    border: 1px solid #8BA5D8;
+    padding-left: 5px;
+}
+
+::placeholder {
+    color: #8ba5d8ad;
+    padding-left: 10px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 16px;
+}
+
+input#last-name.input-last-name{
+    border: 1px solid #8BA5D8;
+    color: #8ba5d8ad;
+    height: 35px;
+    width: 350px;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+input#last-name.input-last-name:focus {
+    outline: none;
+    border: 1px solid #8BA5D8;
+    padding-top: 5px;
+}
+
+input#email.input-email-reply-to{
+    border: 1px solid #8BA5D8;
+    color: #8ba5d8ad;
+    height: 35px;
+    width: 350px;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+input#email.input-email-reply-to:focus {
+    outline: none;
+    border: 1px solid #8BA5D8;
+    padding-left: 5px;
+}
+
+.input-message{
+    border: 1px solid #8BA5D8;
+    color: #8ba5d8ad;
+    height: 140px;
+    width: 350px;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.input-message:focus {
+    outline: none;
+    border: 1px solid #8BA5D8;
+    padding-left: 5px;
+    
+}
+
+.input-message::placeholder {
+    padding-top: 5px;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+.button-submit-message{
+    border-radius: 50px;
+    height: 35px;
+    width: 350px;
+    background-color: #CEDFFF;
+}
+
+.submit-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* margin-top: 20px;
+    margin-right: 100px; */
+    color: white;
+}
+
+.button-submit-message:hover {
+    cursor: pointer;
+    background-color: #8BA5D8;
+}
+/*-----END CONTACTS RIGHT PART----- */
 
 /*-----POPUP LINKEDIN----- */
 #overlayLinkedin {
@@ -429,8 +536,7 @@ a:hover {
     width: 100vw;
     height: 100vh;
     display: none;
-    background-color: rgba(0, 0, 0, 0.616);
-   
+    background-color: rgb(0 0 0 / 84%);
 }
 
 #popupLinkedin {
@@ -443,7 +549,6 @@ a:hover {
     height: 400px;
     font-family: 'Kodchasan', sans-serif;
     border: #CEDFFF 2px solid;
-   
 }
 
 .top-content{
@@ -478,12 +583,80 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
-.linkedin-link:hover{
+.link-linkedin{
     cursor: pointer;
     color: #0b69c7;
+    font-weight: bold;
 }
+/*-----END POPUP LINKEDIN----- */
+
+/*-----POPUP GITHUB----- */
+#overlayGithub {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: rgb(0 0 0 / 84%);
+}
+
+#popupGithub {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    font-family: 'Kodchasan', sans-serif;
+    border: #CEDFFF 2px solid;
+}
+
+.top-content{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-image{
+    width: 35px;
+    height: 35px;
+}
+
+.github-qrcode{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-qrcode{
+    width: 250px;
+    height: 250px;
+}
+
+.github-link{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.link-github{
+    cursor: pointer;
+    color: #0b69c7;
+    font-weight: bold;
+}
+/*-----END POPUP GITHUB----- */
 
 /*-----FOOTER----- */
 .copyright {
