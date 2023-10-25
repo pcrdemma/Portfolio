@@ -1,3 +1,7 @@
+//Gérer le cas des input required
+//Gérer la récup des entrées d'input pour les donner dans le bot discord
+//Voir si l'on peut gérer l'affichage dans le bot discord (comment on reçoit le message directement)
+
 const form = document.getElementById('form');
 console.log(form);
 console.log(document.getElementById('message'));
