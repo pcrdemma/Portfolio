@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
@@ -46,14 +48,45 @@
         </div>
         <!--END NAVBAR-->
 
-        <!-------------------------------------------------------------H O M E------------------------------------------------------------------------------------------------------------------------>
-
-        <!--HOME SQUARE-->
-        <section id="home-section" class="section">
-            
-        </section>
-        <!--END HOME SQUARE-->
+        <div class="title-contact">
+            CONTACTEZ MOI
+        </div>
+        <div class="contact-container">
+            <div class="contact-form-data">
+                <form action="/contact" method="POST">
+                    <div class="form-group">
+                        <div class="input-prenom">
+                            <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+                        </div>
+                        <div class="input-nom">
+                            <input type="text" id="nom" name="nom" placeholder="Nom" required>
+                        </div>
+                        <div class="input-mail">
+                            <input type="text" id="mail" name="mail" placeholder="Email" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-form-message">
+                <form action="/contact" method="POST">
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
+                    </div>
+                    <button class="envoyer-btn" type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                <img src="/img/logo_navbar.png" alt="logo" id="logo-footer">
+            </div>
+            <div class="footer-text">
+                <p>© 2021 Emma Picard</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
