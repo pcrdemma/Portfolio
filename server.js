@@ -3,11 +3,6 @@ const app = express();
 const routes = require('./src/routes/routes')
 const port = 8086;
 
-// Define a route
-// app.get('/', (req, res) => {
-//   res.send('Hello, this is your Node.js server!');
-// });
-
 app.use('/css/:filename', (req, res) =>{
     var filename = req.params.filename;
     res.sendFile(__dirname + '/public/style/' + filename);
@@ -24,9 +19,7 @@ app.use('/js/:filename', (req, res) =>{
 });
 
 routes(app);
-
-// Start the server
  
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}/home`);
+  console.log(`Server is running on http://localhost:${port}/`);
 });

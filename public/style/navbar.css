@@ -1,0 +1,75 @@
+body{
+    background-color: #FBFDFF;
+}
+
+/*-----NAVBAR-----*/
+.header {
+    height: 8vh;
+    width: 80%;
+    background-color: #FCFDFF;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 2%;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
+    margin-left : 9%;
+}
+
+.text-navbar{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left : 30%;
+}
+
+/* link style */
+/* status initial */
+.text-navbar a {
+    text-decoration: none;
+    color: black; 
+    position: relative;
+}
+
+.text-navbar a p {
+    margin: 0;
+    padding: 5px;
+    transition: color 0.3s;
+}
+
+/* colors modification */
+.text-navbar a:hover p, .text-navbar a:focus p, .text-navbar a.active p {
+    color: white;
+    background-color: #CEDFFF;
+    border-radius: 5px; /* Optionnel: arrondi des coins du rectangle */
+}
+
+
+/*-----LOGO-----*/
+#logo-portfolio {
+    margin-left : 50%;
+    height: 30px;
+}
+
+.home-header {
+    cursor: pointer;
+}
+
+.about-me-header {
+    cursor: pointer;
+}
+
+.project-header {
+    cursor: pointer;
+}
+
+.contact-header {
+    cursor: pointer;
+}
+
+/*----- END NAVBAR-----*/
+
