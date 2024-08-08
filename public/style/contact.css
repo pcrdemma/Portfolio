@@ -1,3 +1,8 @@
+body{
+    background-color: #FBFDFF;
+    margin: 0%;
+}
+
 .title-contact {
     font-family: 'Italiana';
     font-size: 40px;
@@ -31,6 +36,7 @@ input[type=text] {
     height: 25px;
     width: 450px;
     background-color: #FCFDFF;
+    border-width: 1.5px 1.5px 1.5px 1.5px;
     padding: 3%;
 }
 
@@ -73,6 +79,67 @@ textarea:focus {
     cursor: pointer;
 }
 
-footer{
-    margin-top: 8%;
+a{
+    text-decoration: none;
+    position: relative;
 }
+
+footer{
+    margin-top: 10%;
+    width: 100%;
+    background-color: #cedfff;
+}
+
+.data-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+    color:white;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.footer-navigation-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: white; 
+    transition: color 0.3s;
+    margin: 0;
+    padding: 5px;
+}
+
+.footer-navigation-text a:hover p, .footer-navigation-text a:focus p, .footer-navigation-text a.active p {
+    color: black;
+    background-color: #FCFDFF;
+    border-radius: 5px; /* Optionnel: arrondi des coins du rectangle */
+}
+
+.footer-contact-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: white; 
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer-contact-text a:hover p, .footer-contact-text a:focus p, .footer-contacts-text a.active p {
+    color: black;
+    background-color: #FCFDFF;
+    border-radius: 5px; /* Optionnel: arrondi des coins du rectangle */
+}
+
