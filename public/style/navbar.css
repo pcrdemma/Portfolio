@@ -1,3 +1,17 @@
+body::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #FCFDFF; /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #8BA5D8; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 1px solid #8BA5D8; /* creates padding around scroll thumb */
+  }
+
 body{
     background-color: #FBFDFF;
 }
@@ -5,7 +19,7 @@ body{
 /*-----NAVBAR-----*/
 .header {
     height: 8vh;
-    width: 80%;
+    width: 85%;
     background-color: #FCFDFF;
     position: fixed;
     display: flex;
@@ -14,7 +28,7 @@ body{
     top: 2%;
     border-radius: 20px;
     filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
-    margin-left : 9%;
+    margin-left : 7%;
 }
 
 .text-navbar{
