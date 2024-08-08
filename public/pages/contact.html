@@ -47,14 +47,14 @@
                 </a>
             </div>
         </div>
-        <!--END NAVBAR-->
-
+<!--END NAVBAR-->
+<!--PRINCIPAL PART-->
         <div class="title-contact">
             CONTACTEZ MOI
         </div>
         <div class="contact-container">
             <div class="contact-form-data">
-                <form action="/contact" method="POST">
+                <form action="/contact" method="GET">
                     <div class="form-group">
                         <div class="input-prenom">
                             <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
@@ -69,16 +69,18 @@
                 </form>
             </div>
             <div class="contact-form-message">
-                <form action="/contact" method="POST">
+                <form action="/contact" method="GET">
                     <div class="form-group">
                         <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
                     </div>
-                    <button class="envoyer-btn" type="submit">Envoyer</button>
+                    <button class="envoyer-btn" type="submit" onclick="location.href='mailto:emma.picard26@gmail.com';">Envoyer</button>
                 </form>
             </div>
         </div>
     </div>
 </body>
+<!--END PART-->
+<!--FOOTER-->
 <footer>
     <div class="footer">
         <div class="data-footer">
@@ -139,5 +141,5 @@
             </div>
         </div>
 </footer>
-
+<!--END-FOOTER-->
 </html>
