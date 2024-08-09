@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const webhookUrl = 'https://discord.com/api/webhooks/1271457710914928763/hnjDPvKsjIM9XdevK9VaWRdwr5N4EYDUw_-1pLFUl91R6llxwZNlafA2HywDI8TeZh2A';
         
         // Créez un message formaté
-        const formattedMessage = `**Contact Form Submission**\n**Prénom:** ${prenom}\n**Nom:** ${nom}\n**Email:** ${mail}\n**Message:** ${message}`;
+        const formattedMessage = `**Nouveau message**\n**Prénom:** ${prenom}\n**Nom:** ${nom}\n**Email:** ${mail}\n**Message:** ${message}`;
 
         fetch(webhookUrl, {
             method: 'POST',
