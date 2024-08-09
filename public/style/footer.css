@@ -9,6 +9,10 @@ footer{
     background-color: #cedfff;
 }
 
+.footer-article{
+    margin-top: 12%;
+}
+
 .data-footer{
     display: flex;
     justify-content: space-around;
