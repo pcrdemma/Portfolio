@@ -1,0 +1,218 @@
+body{
+    background-color: #FBFDFF;
+    margin: 0%;
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.welcom-left-part{
+    width: 47%;
+}
+
+p{
+    margin: 0%;
+}
+
+.name{
+    font-family: 'Italiana';
+    font-size: 80px;
+}
+
+.sentence{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.picture-right-part{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border: 1.5px solid #cedfff;
+    width: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;/* A ENLEVER POUR LA PHOTO  */
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-container{
+    margin-top: 10%;
+    background-color: #EAF1FF;
+    border-top-left-radius:35px 35px;
+    border-top-right-radius:35px 35px;
+}
+
+.title{
+    font-family: 'Italiana';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+}
+
+.title p{
+    margin-top: 8%;
+}
+
+.data-middle-part{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-evenly;  
+
+}
+
+.text-left-middle-part{
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.informations{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.localisation, .contact-email, .linkedin, .github{
+    display: flex;
+    align-items: center;
+}
+
+.localisation img, .contact-email img, .linkedin img, .github img{
+    margin-right: 5%;
+}
+
+
+.cv-right-middle-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+button{
+    margin-top: 10%;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: #cedfff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+}
+
+button img{
+    margin-left: 5%;
+}
+
+.mon-parcours{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+
+.informations-duree{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-date{
+    text-align: center;
+    padding-top: 25px;
+    width: 100px;
+    height:75px;
+    border-radius: 50%;
+    background-color: #cedfff;
+}
+
+.dates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    line-height: 1.5;
+}
+
+.duree {
+    border-left: 3px solid #cedfff; 
+    height: 210px; 
+    margin-left: 2.8%;
+}
+
+.contenu-parcours{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: -16.5%;
+}
+
+#logo-com-company{
+    width: 120px;
+    height: 70px;
+}
+
+.localisation-entreprise{
+    font-weight: 100;
+}
+
+.contenu{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+#logo-ynov{
+    width: 125px;
+    height: 50px;
+}
+
+#logo-lycee{
+    width: 100px;
+    height: 100px;
+    margin-top: -2%;
+}
+
+.duree-lycee{
+    border-left: 3px solid #FBFDFF; 
+    height: 150px; 
+    margin-left: 3%;
+}
+
+.informations-duree-lycee{
+    margin-top: -1.1%;
+}
+
+.contenu-parcours-lycee{
+    margin-top: -12.5%;
+    margin-left: 10%;
+}
+
+.contenu-lycee{
+    margin-top: 2%;
+}
