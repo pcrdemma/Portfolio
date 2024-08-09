@@ -14,16 +14,14 @@ body{
     height: 5%;
 }
 
-.contact-container {
+form {
     display: flex;
     margin-top: 8%;
     justify-content: space-evenly;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.contact-form-message{
+    margin-right: 10px;
 }
 
 input#nom {

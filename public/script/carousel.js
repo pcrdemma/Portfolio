@@ -2,10 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentIndex = 0;
     const articles = document.querySelectorAll('.carousel-item');
     const dots = document.querySelectorAll('.carousel-indicators .dot');
+    // const carouselInner = document.querySelector('.carousel-inner');
 
     function showArticle(index) {
+        // const offset = -index * 100; // Calculer le décalage en pourcentage
+        // carouselInner.style.transform = `translateX(${offset}%)`; // Appliquer le décalage
+        
         articles.forEach((article, i) => {
-            console.log(`Article ${i + 1} is now ${i === index ? 'active' : 'inactive'}`);
             article.classList.remove('active');
             dots[i].classList.remove('active');
         });
@@ -24,15 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function currentArticle(index) {
-        currentIndex = index - 1; 
+        currentIndex = index;
         showArticle(currentIndex);
     }
 
     document.querySelector('.carousel-control-prev').addEventListener('click', prevArticle);
     document.querySelector('.carousel-control-next').addEventListener('click', nextArticle);
     dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => currentArticle(index + 1));
+        dot.addEventListener('click', () => currentArticle(index));
     });
 
-    showArticle(currentIndex);
+    showArticle(currentIndex); // Afficher l'article initial
 });

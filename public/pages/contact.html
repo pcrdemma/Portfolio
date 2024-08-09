@@ -47,37 +47,34 @@
                 </a>
             </div>
         </div>
-<!--END NAVBAR-->
-<!--PRINCIPAL PART-->
+        <!--END NAVBAR-->
+        <!--PRINCIPAL PART-->
         <div class="title-contact">
             CONTACTEZ MOI
         </div>
         <div class="contact-container">
-            <div class="contact-form-data">
-                <form action="/contact" method="GET">
-                    <div class="form-group">
-                        <div class="input-prenom">
-                            <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
-                        </div>
-                        <div class="input-nom">
-                            <input type="text" id="nom" name="nom" placeholder="Nom" required>
-                        </div>
-                        <div class="input-mail">
-                            <input type="text" id="mail" name="mail" placeholder="Email" required>
-                        </div>
+            <form id="contactForm">
+                <div class="form-group">
+                    <div class="input-prenom">
+                        <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
                     </div>
-                </form>
-            </div>
-            <div class="contact-form-message">
-                <form action="/contact" method="GET">
+                    <div class="input-nom">
+                        <input type="text" id="nom" name="nom" placeholder="Nom" required>
+                    </div>
+                    <div class="input-mail">
+                        <input type="text" id="mail" name="mail" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="contact-form-message">
                     <div class="form-group">
                         <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
                     </div>
-                    <button class="envoyer-btn" type="submit" onclick="location.href='mailto:emma.picard26@gmail.com';">Envoyer</button>
-                </form>
-            </div>
+                    <button class="envoyer-btn" type="submit" onclick="sendMail()">Envoyer</button>
+                </div>
+            </form>
         </div>
     </div>
+    <script src="/js/contact.js"></script>
 </body>
 <!--END PART-->
 <!--FOOTER-->
@@ -142,4 +139,5 @@
         </div>
 </footer>
 <!--END-FOOTER-->
+
 </html>
