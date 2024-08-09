@@ -122,6 +122,7 @@ button{
     justify-content: center;
     align-items: center;
     width: 255px;
+    /* position: fixed; */
 }
 
 button img{

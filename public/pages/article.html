@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/css/article.css">
+    <link rel="stylesheet" type="text/css" href="/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
@@ -45,15 +48,192 @@
             </div>
         </div>
         <!--END NAVBAR-->
-
-        <!-------------------------------------------------------------H O M E------------------------------------------------------------------------------------------------------------------------>
-
-        <!--HOME SQUARE-->
-        <section id="home-section" class="section">
-            
-        </section>
-        <!--END HOME SQUARE-->
+        <!--PRINCIPAL PART-->
+        <div class="title-page">
+            ARTICLES
+        </div>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-article">
+                        <div class="article-number">
+                            <span class="first-number">0</span><span class="second-number">1</span>
+                        </div>
+                        <div class="apercu-article">
+                            photo
+                        </div>
+                        <div class="contenu-article">
+                            <div class="title-article">
+                                Mission Principale
+                            </div>
+                            <div class="contenu">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+                                <p>do eiusmod tempor incididunt ut labore et dolore magna </p>
+                                <p>aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-article">
+                        <div class="article-number">
+                            <span class="first-number">0</span><span class="second-number">2</span>
+                        </div>
+                        <div class="apercu-article">
+                            photo
+                        </div>
+                        <div class="contenu-article">
+                            <div class="title-article">
+                                Aspects technique
+                            </div>
+                            <div class="contenu">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+                                <p>do eiusmod tempor incididunt ut labore et dolore magna </p>
+                                <p>aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-article">
+                        <div class="article-number">
+                            <span class="first-number">0</span><span class="second-number">3</span>
+                        </div>
+                        <div class="apercu-article">
+                            photo
+                        </div>
+                        <div class="contenu-article">
+                            <div class="title-article">
+                                Aspects technique
+                            </div>
+                            <div class="contenu">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+                                <p>do eiusmod tempor incididunt ut labore et dolore magna </p>
+                                <p>aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-article">
+                        <div class="article-number">
+                            <span class="first-number">0</span><span class="second-number">4</span>
+                        </div>
+                        <div class="apercu-article">
+                            photo
+                        </div>
+                        <div class="contenu-article">
+                            <div class="title-article">
+                                Journée type
+                            </div>
+                            <div class="contenu">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+                                <p>do eiusmod tempor incididunt ut labore et dolore magna </p>
+                                <p>aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-article">
+                        <div class="article-number">
+                            <span class="first-number">0</span><span class="second-number">5</span>
+                        </div>
+                        <div class="apercu-article">
+                            photo
+                        </div>
+                        <div class="contenu-article">
+                            <div class="title-article">
+                                Bilan
+                            </div>
+                            <div class="contenu">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+                                <p>do eiusmod tempor incididunt ut labore et dolore magna </p>
+                                <p>aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" onclick="prevArticle()">
+                <img src="/img/left-arrow.png" alt="left-arrow" id="left-arrow">
+            </button>
+            <button class="carousel-control-next" onclick="nextArticle()">
+                <img src="/img/right-arrow.png" alt="right-arrow" id="right-arrow">
+            </button>
+            <div class="carousel-indicators">
+                <span class="dot" onclick="currentArticle(1)"></span>
+                <span class="dot" onclick="currentArticle(2)"></span>
+                <span class="dot" onclick="currentArticle(3)"></span>
+                <span class="dot" onclick="currentArticle(4)"></span>
+                <span class="dot" onclick="currentArticle(5)"></span>
+            </div>
+        </div>
     </div>
+    </div>
+    <script src="/js/carousel.js"></script>
 </body>
-
+<!--FOOTER-->
+<footer>
+    <div class="footer-article">
+        <div class="data-footer">
+            <div class="footer-logo">
+                <a href="/">
+                    <img src="img\big-logo.png" alt="logo" id="logo-footer">
+                </a>
+                <div class="link-social">
+                    <a href="https://www.linkedin.com/in/emma-picard/">
+                        <img src="img\linkedin.png" alt="logo" id="logo-footer">
+                    </a>
+                    <a href="https://github.com/pcrdemma">
+                        <img src="img\github.png" alt="logo" id="logo-footer">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-navigation-text">
+                Navigation
+                <a href="/">
+                    <div class="home-footer">
+                        <p>Accueil</p>
+                    </div>
+                </a>
+                <a href="/entreprise">
+                    <div class="about-me-footer">
+                        <p>L'entreprise</p>
+                    </div>
+                </a>
+                <a href="/article">
+                    <div class="project-footer">
+                        <p>Articles</p>
+                    </div>
+                </a>
+                <a href="/contact">
+                    <div class="contact-footer">
+                        <p>Contact</p>
+                    </div>
+                </a>
+            </div>
+            <div class="footer-contact-text">
+                Contact
+                <a href="tel:+33781698531">
+                    <div class="phone-footer">
+                        <p>07 81 69 85 31</p>
+                    </div>
+                </a>
+                <a href="mailto:emma.picard26@gmail.com">
+                    <div class="mail-footer">
+                        <p>emma.picard26@gmail.com</p>
+                    </div>
+                </a>
+                <div class="adress-lyon-footer">
+                    <p>Lyon (69) Rhône</p>
+                </div>
+                <div class="adresse-alsace-footer">
+                    <p>Alsace (68) Haut-Rhin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--END-FOOTER-->
 </html>

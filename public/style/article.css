@@ -1,0 +1,147 @@
+body {
+    background-color: #FBFDFF;
+    margin: 0%;
+}
+
+/* Carrousel général */
+.carousel {
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* Conteneur interne du carrousel */
+.carousel-inner {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 5%; */
+}
+
+/* Items du carrousel */
+.carousel-item {
+    flex: 1 0 100%;
+    transition: transform 0.5s ease-in-out;
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+/* Indicateurs (points) */
+.carousel-indicators {
+    position: absolute;
+    bottom: -30%;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-indicators .dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin: 0 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+.carousel-indicators .dot.active {
+    background-color: black;
+}
+
+/* Flèches (images) */
+.carousel-control-prev,
+.carousel-control-next {
+    margin: 10%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transform: translateY(-50%);
+    padding: 0;
+    outline: none;
+    box-shadow: none;
+    position: absolute;
+    top: 15%;
+}
+
+#left-arrow,
+#right-arrow {
+    width: 50px;
+    height: 50px;
+}
+
+.title-page {
+    font-family: 'Italiana';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11%;
+    width: 100%;
+    height: 5%;
+}
+
+.container-article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.article-number {
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    margin-right: -10%;
+}
+
+.first-number {
+    color: rgba(206, 223, 255, 0.25);
+}
+
+.second-number {
+    color: #cedfff;
+}
+
+
+.apercu-article {
+    width: 400px;
+    height: 300px;
+    border: 1.5px solid #cedfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu-article{
+    margin-left: -10%;
+}
+
+.title-article {
+    margin-top: -20%;
+    font-family: 'Italiana';
+    font-size: 30px;
+}
+
+p {
+    margin: 0%;
+}
+
+.contenu {
+    margin-top: 20%;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
