@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #FBFDFF;
     margin: 0%;
 }
@@ -20,7 +20,7 @@ form {
     justify-content: space-evenly;
 }
 
-.contact-form-message{
+.contact-form-message {
     margin-right: 10px;
 }
 
@@ -77,13 +77,13 @@ textarea:focus {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .title-contact {
         margin-top: 15%;
         font-size: 35px;
     }
 
-    form{
+    form {
         display: flex;
         justify-content: space-between;
         margin-left: 10%;
@@ -94,7 +94,7 @@ textarea:focus {
         width: 350px;
     }
 
-    textarea{
+    textarea {
         width: 350px;
     }
 
@@ -102,10 +102,166 @@ textarea:focus {
         width: 350px;
     }
 
-    .contact-form-message{
+    .contact-form-message {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
+}
+
+@media screen and (max-width:928px) {
+    form {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width:866px) {
+    form {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+@media screen and (max-width:825px) {
+    form {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-contact {
+        margin-top: 15%;
+        font-size: 30px;
+    }
+
+    form {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    input[type=text] {
+        width: 280px;
+    }
+
+    textarea {
+        width: 280px;
+        height: 150px;
+    }
+
+    .envoyer-btn {
+        width: 280px;
+        height: 40px;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .contact-form-message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:656px){
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .contact-form-message{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 11%;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .title-contact {
+        margin-top: 20%;
+        font-size: 25px;
+    }
+
+    ::placeholder {
+        font-size: 10px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    input[type=text] {
+        width: 250px;
+    }
+
+    textarea {
+        width: 250px;
+        height: 150px;
+    }
+
+    .envoyer-btn {
+        width: 250px;
+        height: 40px;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .contact-form-message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 11%;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .title-contact {
+        margin-top: 20%;
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    form {
+        margin-left: 8%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title-contact {
+        margin-top: 25%;
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    form {
+        margin-left: 10%;
+    }
+
+    input[type=text] {
+        width: 200px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 150px;
+    }
+
+    .envoyer-btn {
+        width: 200px;
+        height: 30px;
+        padding: 2px;
+        font-size: 15px;
+    }
 }
