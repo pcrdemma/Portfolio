@@ -126,7 +126,7 @@ body {
     align-items: center;
 }
 
-.contenu-article{
+.contenu-article {
     margin-left: -10%;
 }
 
@@ -144,4 +144,276 @@ p {
     margin-top: 20%;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    #left-arrow,
+    #right-arrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 20.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title-page {
+        font-size: 35px;
+    }
+
+    .title-article {
+        font-size: 25px;
+    }
+
+    .contenu {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    #left-arrow,
+    #right-arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 35%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .article-number {
+        font-size: 80px;
+    }
+
+    .apercu-article {
+        width: 300px;
+        height: 250px;
+    }
+
+    .carousel-indicators .dot{
+        width: 6.5px;
+        height: 6.5px;
+        margin: 0 5px;
+    }
+
+    .container-article{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title-page {
+        font-size: 30px;
+    }
+
+    .title-article {
+        font-size: 20px;
+    }
+
+    .contenu {
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    #left-arrow,
+    #right-arrow {
+        width: 25px;
+        height: 25px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 35%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .article-number {
+        font-size: 60px;
+    }
+
+    .apercu-article {
+        width: 200px;
+        height: 150px;
+    }
+
+    .carousel-indicators .dot{
+        width: 6px;
+        height: 6px;
+        margin: 0 5px;
+    }
+
+    .contenu-article{
+        margin-top: 5%;
+    }
+
+    .container-article{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .title-page {
+        margin-top: 20%;
+        font-size: 25px;
+    }
+
+    .title-article {
+        font-size: 15px;
+    }
+
+    .contenu {
+        margin-top: 11px;
+        font-size: 8px;
+        text-align: justify;
+    }
+
+    #left-arrow,
+    #right-arrow {
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 35%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .article-number {
+        font-size: 40px;
+    }
+
+    .apercu-article {
+        width: 100px;
+        height: 80px;
+    }
+
+    .carousel-indicators .dot{
+        width: 4px;
+        height: 4px;
+        margin: 0 5px;
+    }
+
+    .contenu-article{
+        margin-top: 6%;
+        width: 130px;
+    }
+
+    .container-article{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .title-page {
+        margin-top: 20%;
+        font-size: 25px;
+    }
+
+    .title-article {
+        font-size: 15px;
+    }
+
+    .contenu {
+        margin-top: 11px;
+        font-size: 8px;
+        text-align: justify;
+    }
+
+    #left-arrow,
+    #right-arrow {
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 35%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .article-number {
+        font-size: 40px;
+    }
+
+    .apercu-article {
+        width: 100px;
+        height: 80px;
+    }
+
+    .carousel-indicators .dot{
+        width: 4px;
+        height: 4px;
+        margin: 0 5px;
+    }
+
+    .contenu-article{
+        margin-top: 6%;
+        width: 130px;
+    }
+
+    .container-article{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:375px){
+    .article-number {
+        font-size: 35px;
+    }
+    .apercu-article {
+        width: 90px;
+        height: 80px;
+    }
+    #left-arrow,
+    #right-arrow {
+        width: 15px;
+        height: 15px;
+    }
+    .contenu{
+        font-size: 7px;
+    }
+    .contenu-article{
+        margin-top: 6%;
+        width: 130px;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 37%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .article-number {
+        font-size: 30px;
+    }
+    .apercu-article {
+        width: 80px;
+        height: 70px;
+    }
+    .contenu{
+        font-size: 6px;
+    }
+    .contenu-article{
+        margin-top: 7%;
+        width: 130px;
+        font-size: 8px;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 37%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
