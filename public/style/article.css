@@ -146,6 +146,53 @@ p {
     font-size: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link-article{
+    color : #8BA5D8;
+    font-style: italic;
+    transition: color 0.3s;
+    margin: 0;
+    padding: 2px;
+}
+
+.link-article:hover{
+    color: white;
+    background-color: #8BA5D8;
+    border-radius: 5px;
+}
+
+#apercu-wazuh-article{
+    width: 300px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#apercu-kerberos-article{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#apercu-dhcp-article{
+    width: 350px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#apercu-com-company-article{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width: 1440px) {
 
     #left-arrow,
