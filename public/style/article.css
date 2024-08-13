@@ -167,11 +167,12 @@ a {
 
 #apercu-wazuh-article{
     width: 300px;
-    height: 190px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #apercu-kerberos-article{
     width: 400px;
     height: 300px;
@@ -179,6 +180,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 #apercu-dhcp-article{
     width: 350px;
     height: 220px;
@@ -186,6 +188,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 #apercu-com-company-article{
     width: 250px;
     height: 150px;
@@ -193,6 +196,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 1440px) {
 
     #left-arrow,
