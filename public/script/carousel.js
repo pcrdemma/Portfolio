@@ -5,8 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // const carouselInner = document.querySelector('.carousel-inner');
 
     function showArticle(index) {
-        // const offset = -index * 100; // Calculer le décalage en pourcentage
-        // carouselInner.style.transform = `translateX(${offset}%)`; // Appliquer le décalage
         
         articles.forEach((article, i) => {
             article.classList.remove('active');

@@ -22,4 +22,8 @@ module.exports = function (app) {
     app.get('/dhcp', (req, res) => {
         res.sendFile('/pages/article-dhcp.html', { root: './public' })
     });
+
+    app.get('/kerberos-ntlm', (req, res) => {
+        res.sendFile('/pages/article-kerberos-ntlm.html', { root: './public' })
+    });
 };
