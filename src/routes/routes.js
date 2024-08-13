@@ -14,4 +14,8 @@ module.exports = function (app) {
     app.get('/contact', (req, res) => {
         res.sendFile('/pages/contact.html', { root: './public' })
     });
+
+    app.get('/mission-principale', (req, res) => {
+        res.sendFile('/pages/article-mission-principale.html', { root: './public' })
+    });
 };
