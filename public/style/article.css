@@ -256,6 +256,26 @@ a {
     .container-article{
         margin-top: 10%;
     }
+
+    #apercu-wazuh-article{
+        width: 230px;
+        height: 150px;
+    }
+
+    #apercu-dhcp-article{
+        width: 281px;
+        height: 174px;
+    }
+
+    #apercu-kerberos-article{
+        width: 281px;
+        height: 174px;
+    }
+
+    #apercu-com-company-article{
+        width: 230px;
+        height: 150px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -306,6 +326,26 @@ a {
 
     .container-article{
         margin-top: 10%;
+    }
+
+    #apercu-wazuh-article{
+        width: 180px;
+        height: 115px;
+    }
+
+    #apercu-dhcp-article{
+        width: 195px;
+        height: 126px;
+    }
+
+    #apercu-kerberos-article{
+        width: 192px;
+        height: 140px;
+    }
+
+    #apercu-com-company-article{
+        width: 164px;
+        height: 92px;
     }
 }
 
@@ -415,6 +455,26 @@ a {
     .container-article{
         margin-top: 10%;
     }
+
+    #apercu-wazuh-article{
+        width: 97px;
+        height: 64px;
+    }
+
+    #apercu-dhcp-article{
+        width: 95px;
+        height: 59px;
+    }
+
+    #apercu-kerberos-article{
+        width: 100px;
+        height: 73px;
+    }
+
+    #apercu-com-company-article{
+        width: 87px;
+        height: 51px;
+    }
 }
 
 @media screen and (max-width:375px){
@@ -443,6 +503,25 @@ a {
         margin-left: 5%;
         margin-right: 5%;
     }
+    #apercu-wazuh-article{
+        width: 86px;
+        height: 54px;
+    }
+
+    #apercu-dhcp-article{
+        width: 89px;
+        height: 56px;
+    }
+
+    #apercu-kerberos-article{
+        width: 90px;
+        height: 62px;
+    }
+
+    #apercu-com-company-article{
+        width: 87px;
+        height: 51px;
+    }
 }
 
 @media screen and (max-width:320px){
@@ -466,5 +545,25 @@ a {
         top: 37%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    #apercu-wazuh-article{
+        width: 86px;
+        height: 54px;
+    }
+
+    #apercu-dhcp-article{
+        width: 79px;
+        height: 49px;
+    }
+
+    #apercu-kerberos-article{
+        width: 80px;
+        height: 53px;
+    }
+
+    #apercu-com-company-article{
+        width: 73px;
+        height: 42px;
     }
 }

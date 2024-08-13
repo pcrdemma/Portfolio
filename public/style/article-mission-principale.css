@@ -22,7 +22,7 @@ body {
     margin-top: 5%;
 }
 
-.important{
+.important {
     font-family: 'Inter', sans-serif;
     color: #8BA5D8;
 }
@@ -32,19 +32,14 @@ body {
     font-size: 15px;
 }
 
-.text-article2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    margin-top: 3%;
-}
 
-.text-article3{
+.text-article3 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     margin-top: 8%;
 }
 
-#siem-architecture{
+#siem-architecture {
     width: 650px;
     height: 500px;
     margin-top: 5%;
@@ -53,46 +48,45 @@ body {
 /* --------------------END PART SIEM ARTICLE--------------------- */
 
 /* --------------------WAZUH ARTICLE--------------------- */
-#wazuh{
+#wazuh {
     width: 150px;
     height: 95px;
     margin-top: 5%;
 }
 
-.text-article4{
+.text-article4 {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     margin-top: 3%;
 }
 
-.container-all-cards{
+.container-all-cards {
     margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.left-vertical-cards{
+.left-vertical-cards {
     display: flex;
     flex-direction: column;
 }
 
-.right-vertical-cards{
+.right-vertical-cards {
     display: flex;
     flex-direction: column;
 }
 
-.card-article-wazuh{
+.card-article-wazuh {
     margin-top: 5%;
     width: 400px;
     height: 300px;
     border: 1.5px solid #cedfff;
-
     perspective: 1000px;
     position: relative;
 }
 
-.contenu-card{
+.contenu-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,42 +102,43 @@ body {
     transition: transform 0.8s;
 }
 
-.card-front, .card-back {
+.card-front,
+.card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
 }
 
-#image-agent-wazuh{
+#image-agent-wazuh {
     width: 306px;
     height: 125px;
     margin-top: 17%;
     margin-left: 10%;
 }
 
-#image-indexer-wazuh{
+#image-indexer-wazuh {
     width: 300px;
     height: 97px;
     margin-top: 23%;
     margin-left: 10%;
 }
 
-#image-server-wazuh{
+#image-server-wazuh {
     width: 300px;
     height: 97px;
     margin-top: 23%;
     margin-left: 10%;
 }
 
-#image-global-wazuh{
+#image-global-wazuh {
     width: 225px;
     height: 121px;
     margin-top: 17%;
     margin-left: 22%;
 }
 
-.text-card{
+.text-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +146,7 @@ body {
     margin-top: 9%;
 }
 
-.card-title{
+.card-title {
     font-family: 'Inter', sans-serif;
     width: 65%;
     display: flex;
@@ -159,7 +154,8 @@ body {
     margin-left: 13%;
 }
 
-#switch-card, .switch-card-back{
+#switch-card,
+.switch-card-back {
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -179,21 +175,21 @@ body {
     cursor: pointer;
 }
 
-#schema-server-wazuh{
+#schema-server-wazuh {
     width: 90%;
     margin-left: 5%;
     margin-top: 20%;
     cursor: pointer;
 }
 
-#schema-indexer-wazuh{
+#schema-indexer-wazuh {
     width: 85%;
     height: 100%;
     margin-left: 7%;
     cursor: pointer;
 }
 
-#schema-global-wazuh{
+#schema-global-wazuh {
     width: 100%;
     height: 50%;
     margin-top: 20%;
@@ -217,8 +213,8 @@ body {
 /* --------------------END PART WAZUH ARTICLE--------------------- */
 
 /* -----------POPUP SIEM----------------- */
-#openPopup{
-    color : #8BA5D8;
+#openPopup {
+    color: #8BA5D8;
     font-style: italic;
     transition: color 0.3s;
     margin: 0;
@@ -226,7 +222,7 @@ body {
     cursor: pointer;
 }
 
-#openPopup:hover{
+#openPopup:hover {
     color: white;
     background-color: #8BA5D8;
     border-radius: 5px;
@@ -270,18 +266,18 @@ body {
     cursor: pointer;
 }
 
-.explication-siem{
+.explication-siem {
     display: flex;
 }
 
-.titre-popup{
+.titre-popup {
     font-family: 'Italiana', sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 2%;
 }
 
-.text-equipement-valority{
+.text-equipement-valority {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     margin-top: 5%;
@@ -290,7 +286,7 @@ body {
     text-align: justify;
 }
 
-.text-hebergeur{
+.text-hebergeur {
     font-family: 'Inter', sans-serif;
     font-size: 12px;
     margin-top: 5%;
@@ -303,16 +299,19 @@ body {
 
 /* -----------POPUP WAZUH----------------- */
 .popup-article-wazuh {
-    display: none; /* Caché par défaut */
+    display: none;
+    /* Caché par défaut */
     position: fixed;
-    z-index: 1000; /* Au-dessus de tout */
+    z-index: 1000;
+    /* Au-dessus de tout */
     padding-top: 60px;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8); /* Fond sombre semi-transparent */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Fond sombre semi-transparent */
 }
 
 .popup-content-article-wazuh {
@@ -340,7 +339,175 @@ body {
 }
 
 body.no-scroll {
-    overflow: hidden; /* Empêche le défilement */
+    overflow: hidden;
+    /* Empêche le défilement */
 }
 
 /* -----------END POPUP WAZUH----------------- */
+
+.retour {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #8BA5D8;
+    transition: color 0.3s;
+    margin: 0;
+    padding: 5px;
+}
+
+.retour:hover {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #8BA5D8;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .title-article {
+        font-size: 30px;
+    }
+
+    .text-article1 {
+        font-size: 13px;
+    }
+
+    .text-article3 {
+        font-size: 15px;
+    }
+
+    #openPopup.important {
+        font-size: 13px;
+    }
+
+    #siem-architecture {
+        width: 550px;
+        height: 400px;
+    }
+
+    #wazuh {
+        width: 100px;
+        height: 65px;
+    }
+
+    .text-article4 {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin-left: 10%;
+        width: 80%;
+        margin-top: 5%;
+        font-size: 13px;
+    }
+
+    .card-article-wazuh {
+        width: 300px;
+        height: 200px;
+    }
+
+    #image-agent-wazuh {
+        width: 206px;
+        height: 90px;
+        margin-top: 16%;
+        margin-left: 15%;
+    }
+
+    #image-server-wazuh {
+        width: 200px;
+        height: 60px;
+        margin-left: 14%;
+    }
+
+    #image-indexer-wazuh {
+        width: 200px;
+        height: 77px;
+        margin-top: 19%;
+        margin-left: 12%;
+    }
+
+    #image-global-wazuh{
+        width: 163px;
+        height: 96px;
+        margin-top: 13%;
+        margin-left: 21%;
+    }
+
+    #switch-card{
+        width: 30px;
+        height: 30px;
+    }
+
+    .card-title{
+        font-size: 12px;
+    }
+
+    .retour{
+        font-size: 15px;
+    }
+
+    .titre-popup{
+        font-size: 20px;
+    }
+
+    .switch-card-back{
+        width: 30px;
+        height: 30px;
+    }
+
+    #schema-agent-wazuh{
+        width: 90%;
+        height: 95%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .title-article{
+        margin-top: 15%;
+    }
+
+    .text-article3{
+        margin-left: 10%;
+    }
+
+    #openPopup.important {
+        margin-left: 10%;
+    }
+
+    #siem-architecture {
+        width: 414px;
+        height: 279px;
+    }
+
+    .explication-siem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #wazuh{
+        width: 90px;
+        height: 55px;
+        
+    }
+
+    .text-article4{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .container-all-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wazuh-article{
+        margin-bottom: -75%;
+    }
+}
