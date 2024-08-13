@@ -18,4 +18,8 @@ module.exports = function (app) {
     app.get('/mission-principale', (req, res) => {
         res.sendFile('/pages/article-mission-principale.html', { root: './public' })
     });
+
+    app.get('/dhcp', (req, res) => {
+        res.sendFile('/pages/article-dhcp.html', { root: './public' })
+    });
 };

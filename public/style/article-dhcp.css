@@ -1,0 +1,55 @@
+body {
+    background-color: #FBFDFF;
+    margin: 0%;
+}
+
+.title-article {
+    margin-top: 10%;
+    font-family: 'Italiana';
+    font-size: 40px;
+    text-align: center;
+}
+
+.container-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.important{
+    font-family: 'Inter', sans-serif;
+    color: #8BA5D8;
+}
+
+.text-article1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+#image-log-collector{
+    width: 50%;
+    height: 250px;
+    margin-left: -8%;
+}
+
+#image-analyse-log{
+    width: 50%;
+    height: auto;
+}
+
+.schema-explicatif{
+    display: flex;
+    width: 110%;
+    justify-content: space-evenly;
+}
+
+#image-decodeur{
+    width: 50%;
+    height: auto;
+    margin-bottom: -7%;
+}
