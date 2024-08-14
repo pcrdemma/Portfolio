@@ -1,0 +1,930 @@
+body {
+    background-color: #FBFDFF;
+    margin: 0%;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.welcom-left-part {
+    width: 47%;
+}
+
+p {
+    margin: 0%;
+}
+
+.name {
+    font-family: 'Italiana';
+    font-size: 80px;
+}
+
+.sentence {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.picture-right-part {
+    width: 20%;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.me{
+    width: 20%;
+    margin-top: 5%;
+    height: 350px;
+    width: 256px;
+}
+
+.middle-container {
+    margin-top: 10%;
+    background-color: #EAF1FF;
+    border-top-left-radius: 35px 35px;
+    border-top-right-radius: 35px 35px;
+}
+
+.title {
+    font-family: 'Italiana';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+}
+
+.title p {
+    margin-top: 8%;
+}
+
+.data-middle-part {
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-evenly;
+
+}
+
+.text-left-middle-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    font-style: italic;
+    transition: color 0.3s;
+    margin: 0;
+    padding: 2px;
+}
+
+.link:hover {
+    color: white;
+    background-color: #8BA5D8;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.informations {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.localisation,
+.contact-email,
+.linkedin,
+.github {
+    display: flex;
+    align-items: center;
+}
+
+.localisation img,
+.contact-email img,
+.linkedin img,
+.github img {
+    margin-right: 5%;
+}
+
+
+.cv-right-middle-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8%;
+    margin-right: 5%;
+}
+
+#cv {
+    height: 700px;
+    width: 500px;
+}
+
+button {
+    margin-top: 10%;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: #cedfff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    position: relative;
+}
+
+button:hover {
+    background-color: #8BA5D8;
+}
+
+button img {
+    margin-left: 5%;
+}
+
+.mon-parcours {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+
+.informations-duree {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-date {
+    text-align: center;
+    padding-top: 25px;
+    width: 100px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #cedfff;
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    line-height: 1.5;
+}
+
+.duree {
+    border-left: 3px solid #cedfff;
+    height: 210px;
+    margin-left: 2.8%;
+}
+
+.contenu-parcours {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: -16.5%;
+}
+
+#logo-com-company {
+    width: 120px;
+    height: 70px;
+}
+
+.localisation-entreprise {
+    font-weight: 100;
+}
+
+.contenu {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.show-article {
+    color : #8BA5D8;
+    font-style: italic;
+    transition: color 0.3s;
+    margin: 0;
+    padding: 2px;
+}
+
+.show-article:hover {
+    color: white;
+    background-color: #8BA5D8;
+    border-radius: 5px;
+}
+
+
+#logo-ynov {
+    width: 125px;
+    height: 50px;
+}
+
+#logo-lycee {
+    width: 100px;
+    height: 100px;
+    margin-top: -2%;
+}
+
+.duree-lycee {
+    border-left: 3px solid #FBFDFF;
+    height: 150px;
+    margin-left: 3%;
+}
+
+.informations-duree-lycee {
+    margin-top: -1.1%;
+}
+
+.contenu-parcours-lycee {
+    margin-top: -12.5%;
+    margin-left: 10%;
+}
+
+.contenu-lycee {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 1440px) {
+    .middle-container {
+        margin-top: 6%;
+    }
+
+    #cv {
+        height: 500px;
+        width: 350px;
+    }
+
+    .text-left-middle-part{
+        margin-left: 5%;
+        font-size: 12px;
+        text-align: justify;
+        width: 50%;
+        height: 40%;
+    }
+
+    .duree{
+        margin-left: 3.7%;  
+        height: 210px;
+    }
+
+    .contenu-parcours{
+        margin-top: -21%;
+        margin-bottom: -20px;
+        font-size: 12px;
+        margin-left: 12%;
+    }
+
+
+    .contenu-parcours-lycee{
+        margin-top: -16%;
+        font-size: 12px;
+        margin-left: 12%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .name {
+        font-size: 60px;
+    }
+
+    .welcom-left-part{
+        margin-left: 3%;
+    }
+
+    .me{
+        height: 200px;
+        width: 128px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    #cv {
+        height: 400px;
+        width: 250px;
+    }
+
+    button{
+        width: 200px;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .download-image{
+        width: 20px;
+        height: 20px;
+    }
+
+    .text-left-middle-part{
+        margin-left: 5%;
+        font-size: 10px;
+        text-align: justify;
+        width: 50%;
+        height: 40%;
+    }
+
+    #localisation{
+        width: 20px;
+        height: 20px;
+    }
+
+    #mail{
+        width: 20px;
+        height: 20px;
+    }
+
+    #linkedin{
+        width: 20px;
+        height: 20px;
+    }
+
+    #github{
+        width: 20px;
+        height: 20px;
+    }
+
+    .container-date {
+        width: 75px;
+        height: 50px;
+    }
+
+    .dates {
+        font-size: 10px;
+        line-height: 1.3;
+        margin-top: -5.5%;
+    }
+
+    #logo-com-company {
+        width: 100px;
+        height: 60px;
+    }
+
+    #logo-ynov {
+        width: 100px;
+        height: 40px;
+    }
+
+    #logo-lycee {
+        width: 80px;
+        height: 80px;
+    }
+
+    .contenu-parcours{
+        margin-top: -28%;
+        margin-bottom: -20px;
+        font-size: 10px;
+        margin-left: 12%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -20%;
+        font-size: 10px;
+        margin-left: 12%;
+    }
+
+    .duree-lycee {
+        margin-left: -10%;
+        /* height: 160px; */
+        border-left: 3px solid #FBFDFF;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .name {
+        font-size: 40px;
+    }
+    .sentence {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    #cv{
+        height: 300px;
+        width: 200px;
+    }
+
+    .text-left-middle-part{
+        margin-left: 8%;
+        font-size: 8px;
+        text-align: justify;
+        width: 50%;
+        height: 40%;
+    }
+
+    button{
+        width: 150px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .download-image{
+        width: 15px;
+        height: 15px;
+    }
+
+    #localisation{
+        width: 15px;
+        height: 15px;
+    }
+
+    #mail{
+        width: 15px;
+        height: 15px;
+    }
+
+    #linkedin{
+        width: 15px;
+        height: 15px;
+    }
+
+    #github{
+        width: 15px;
+        height: 15px;
+    }
+
+    .duree{
+        margin-left: 4%;
+        height: 210px;
+        border-left: 1.5px solid #cedfff;
+    }
+
+    .container-date {
+        width: 60px;
+        height: 35px;
+    }
+
+    .dates {
+        font-size: 8px;
+        line-height: 1.5;
+        margin-top: -18%;
+    }
+
+    .contenu-parcours{
+        margin-top: -35%;
+        margin-bottom: -20px;
+        font-size: 7px;
+        margin-left: 15%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -27%;
+        font-size: 7px;
+        margin-left: 15%;
+    }
+
+    #logo-com-company {
+        width: 70px;
+        height: 45px;
+    }
+
+    #logo-ynov {
+        width: 70px;
+        height: 30px;
+    }
+
+    #logo-lycee {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .name {
+        font-size: 25px;
+    }
+
+    .sentence {
+        font-size: 8px;
+    }
+
+    .me{
+        height: 130px;
+        width: 90px;
+    }
+
+    .top-container {
+        display: flex;
+        margin-top: 20%;
+        justify-content: space-evenly;
+    }
+    
+    .title {
+        font-size: 15px;
+    }
+
+    .middle-container {
+        margin-top: 15%;
+    }
+
+    #cv{
+        height: 130px;
+        width: 85px;
+    }
+
+    button{
+        width: 100px;
+        font-size: 6px;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    .download-image{
+        width: 10px;
+        height: 10px;
+    }
+
+    .text-left-middle-part{
+        margin-left: 8%;
+        font-size: 6px;
+        text-align: justify;
+        width: 50%;
+        height: 40%;
+    }
+
+    .cv-right-middle-part {
+        margin-top: 5%;
+    }
+
+    .informations{
+        margin-top: 23%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 6px;
+        margin-bottom: 30%;
+    }
+
+    #localisation{
+        width: 10px;
+        height: 10px;
+    }
+
+    #mail{
+        width: 10px;
+        height: 10px;
+    }
+
+    #linkedin{
+        width: 10px;
+        height: 10px;
+    }
+
+    #github{
+        width: 10px;
+        height: 10px;
+    }
+
+    .container-date {
+        width: 30px;
+        height: 5px;
+    }
+
+    .dates {
+        font-size: 3.5px;
+        line-height: 1.5;
+        margin-top: -60%;
+    }
+
+    .duree{
+        margin-left: 4%;
+        height: 200px;
+        border-left: 1px solid #cedfff;
+    }
+
+    .duree-lycee {
+        border-left: 1px solid #FBFDFF;
+    }
+
+    .informations-duree-lycee {
+        margin-top: 0;
+    }
+
+    .contenu-parcours{
+        margin-top: -57%;
+        margin-bottom: 0px;
+        font-size: 6px;
+        margin-left: 17%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -43%;
+        font-size: 6px;
+        margin-bottom: 0px;
+        margin-left: 17%;
+    }
+
+    #logo-com-company {
+        width: 20px;
+        height: 12px;
+    }
+
+    #logo-ynov {
+        width: 20px;
+        height: 10px;
+    }
+
+    #logo-lycee {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .name {
+        font-size: 25px;
+    }
+
+    .sentence {
+        font-size: 8px;
+    }
+
+    .me{
+        height: 130px;
+        width: 90px;
+    }
+
+    .top-container {
+        display: flex;
+        margin-top: 20%;
+        justify-content: space-evenly;
+    }
+    
+    .title {
+        font-size: 15px;
+    }
+
+    .middle-container {
+        margin-top: 15%;
+    }
+
+    #cv{
+        height: 130px;
+        width: 85px;
+    }
+
+    button{
+        width: 100px;
+        font-size: 6px;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    .download-image{
+        width: 10px;
+        height: 10px;
+    }
+
+    .text-left-middle-part{
+        margin-left: 8%;
+        font-size: 6px;
+        text-align: justify;
+        width: 50%;
+        height: 40%;
+    }
+
+    .cv-right-middle-part {
+        margin-top: 5%;
+    }
+
+    .informations{
+        margin-top: 23%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 6px;
+        margin-bottom: 30%;
+    }
+
+    #localisation{
+        width: 10px;
+        height: 10px;
+    }
+
+    #mail{
+        width: 10px;
+        height: 10px;
+    }
+
+    #linkedin{
+        width: 10px;
+        height: 10px;
+    }
+
+    #github{
+        width: 10px;
+        height: 10px;
+    }
+
+    .container-date {
+        width: 30px;
+        height: 5px;
+    }
+
+    .dates {
+        font-size: 3.5px;
+        line-height: 1.5;
+        margin-top: -60%;
+    }
+
+    .duree{
+        margin-left: 4.4%;
+        height: 200px;
+        border-left: 1px solid #cedfff;
+    }
+
+    .duree-lycee {
+        border-left: 1px solid #FBFDFF;
+    }
+
+    .informations-duree-lycee {
+        margin-top: 0;
+    }
+
+    .contenu-parcours{
+        margin-top: -62%;
+        margin-bottom: 0px;
+        font-size: 6px;
+        margin-left: 17%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -48%;
+        font-size: 6px;
+        margin-bottom: 0px;
+        margin-left: 17%;
+    }
+
+    #logo-com-company {
+        width: 20px;
+        height: 12px;
+    }
+
+    #logo-ynov {
+        width: 20px;
+        height: 10px;
+    }
+
+    #logo-lycee {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .name {
+        font-size: 20px;
+    }
+
+    .sentence {
+        font-size: 8px;
+    }
+
+    .me{
+        height: 100px;
+        width: 60px;
+    }
+
+    .top-container {
+        margin-top: 20%;
+    }
+    
+    .title {
+        font-size: 15px;
+    }
+
+    .middle-container {
+        margin-top: 20%;
+    }
+
+    #cv{
+        height: 130px;
+        width: 85px;
+    }
+
+    button{
+        width: 100px;
+        font-size: 6px;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    .download-image{
+        width: 10px;
+        height: 10px;
+    }
+
+    .text-left-middle-part{
+        margin-left: 8%;
+        font-size: 6px;
+        text-align: justify;
+        width: 50%;
+        height: 40%;
+    }
+
+    .cv-right-middle-part {
+        margin-top: 5%;
+    }
+
+    .informations{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 4px;
+        margin-bottom: 12%;
+    }
+
+    #localisation{
+        width: 10px;
+        height: 10px;
+    }
+
+    #mail{
+        width: 10px;
+        height: 10px;
+    }
+
+    #linkedin{
+        width: 10px;
+        height: 10px;
+    }
+
+    #github{
+        width: 10px;
+        height: 10px;
+    }
+
+    .container-date {
+        width: 40px;
+        height: 15px;
+    }
+
+    .dates {
+        font-size: 5px;
+        line-height: 1.5;
+        margin-top: -35%;
+    }
+
+    .duree{
+        margin-left: 6.5%;
+        height: 200px;
+        border-left: 1px solid #cedfff;
+    }
+
+    .contenu-parcours{
+        margin-top: -77%;
+        margin-bottom: 0px;
+        font-size: 5px;
+        margin-left: 17%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -60%;
+        font-size: 5px;
+        margin-bottom: 0px;
+        margin-left: 17%;
+    }
+
+    #logo-com-company {
+        width: 50px;
+        height: 30px;
+    }
+
+    #logo-ynov {
+        width: 50px;
+        height: 20px;
+    }
+
+    #logo-lycee {
+        width: 40px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,50 @@
+body {
+    background-color: #FBFDFF;
+    margin: 0%;
+}
+
+.title-article {
+    margin-top: 10%;
+    font-family: 'Italiana';
+    font-size: 40px;
+    text-align: center;
+}
+
+.container-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.important {
+    font-family: 'Inter', sans-serif;
+    color: #8BA5D8;
+}
+
+.text-article1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.retour {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #8BA5D8;
+    transition: color 0.3s;
+    margin: 0;
+    padding: 5px;
+    margin-right: 95%;
+}
+
+.retour:hover {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #8BA5D8;
+    border-radius: 5px;
+    font-size: 20px;
+}
