@@ -26,4 +26,12 @@ module.exports = function (app) {
     app.get('/kerberos-ntlm', (req, res) => {
         res.sendFile('/pages/article-kerberos-ntlm.html', { root: './public' })
     });
+
+    app.get('/journee-type', (req, res) => {
+        res.sendFile('/pages/article-journee-type.html', { root: './public' })
+    });
+
+    app.get('/bilan', (req, res) => {
+        res.sendFile('/pages/article-bilan.html', { root: './public' })
+    });
 };
