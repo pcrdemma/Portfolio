@@ -1,6 +1,6 @@
 module.exports = function (app) {
     app.get('/', (req, res) => {
-        res.sendFile('/pages/accueil.html', { root: './public' })
+        res.sendFile('/pages/index.html', { root: './public' })
     });
 
     app.get('/entreprise', (req, res) => {
