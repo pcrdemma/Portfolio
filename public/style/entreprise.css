@@ -5,7 +5,7 @@ body {
 
 .title-page {
     font-family: 'Italiana';
-    font-size: 40px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@ body {
     margin-top: 8%;
 }
 
-.text-left-middle-part {
+.container-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ body {
 }
 
 .left-vertical-pole {
-    margin-left: -5%;
+    margin-left: -4%;
 }
 
 .text {
@@ -120,5 +120,167 @@ body {
 }
 
 .left-vertical-team {
-    margin-left: -4%;
+    margin-left: -3%;
+}
+
+.link {
+    color: #8BA5D8;
+    font-style: italic;
+    transition: color 0.3s;
+    margin: 0;
+    padding: 2px;
+}
+
+.link:hover {
+    color: white;
+    background-color: #8BA5D8;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.text-bottom {
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+}
+
+@media screen and (max-width:1024px) {
+    .title-page {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    #logo-com-company {
+        width: 30%;
+        height: auto;
+    }
+
+    .sentence {
+        font-size: 13px;
+    }
+
+    .localisation-entreprise {
+        width: 300px;
+        height: 250px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .sous-text {
+        font-size: 12px;
+    }
+
+    .left-vertical-pole {
+        margin-left: -1%;
+    }
+
+    .right-vertical-team {
+        margin-right: 40%;
+    }
+
+    .left-vertical-team {
+        margin-left: 0%;
+    }
+
+    .text-bottom {
+        font-size: 12px;
+        margin-right: 18%;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title-page {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .sentence {
+        font-size: 12px;
+    }
+
+    .localisation-entreprise {
+        width: 250px;
+        height: 200px;
+    }
+
+    .text {
+        font-size: 10px;
+        margin-right: 5%;
+    }
+
+    .sous-text {
+        font-size: 10px;
+    }
+
+    .text-bottom {
+        font-size: 10px;
+        margin-right: 18%;
+        margin-bottom: 5%;
+
+    }
+}
+
+@media screen and (max-width:425px) {
+    .title-page {
+        font-size: 25px;
+    }
+
+    .top-container {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .sentence {
+        font-size: 10px;
+    }
+
+    .entreprise-left-part {
+        margin-right: 1%;
+    }
+
+    .localisation-entreprise {
+        width: 200px;
+        height: 150px;
+    }
+
+    .text {
+        font-size: 10px;
+        margin-right: 17%;
+    }
+
+    .sous-text {
+        font-size: 10px;
+    }
+
+    .right-vertical-pole {
+        margin-right: -12%;
+    }
+
+    .right-vertical-team {
+        margin-right: -4%;
+    }
+
+    .text-bottom {
+        font-size: 10px;
+        margin-right: 18%;
+        margin-bottom: -50%;
+
+    }
 }
