@@ -22,8 +22,9 @@ body {
     width: 100%;
 }
 
-.welcom-left-part {
+.entreprise-left-part {
     width: 47%;
+    margin-top: -2%;
 }
 
 
@@ -34,14 +35,90 @@ body {
 
 .sentence {
     font-family: 'Inter', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 15px;
     text-align: justify;
 }
 
-.localisation-entreprise{
+.important {
+    font-family: 'Inter', sans-serif;
+    color: #8BA5D8;
+    font-style: italic;
+}
+
+.localisation-entreprise {
     width: 400px;
     height: 350px;
     border: 0;
     border-radius: 5px;
+}
+
+.middle-container {
+
+    background-color: #EAF1FF;
+    border-top-left-radius: 35px 35px;
+    border-top-right-radius: 35px 35px;
+    margin-top: 10%;
+}
+
+.title {
+    font-family: 'Italiana';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+}
+
+.title p {
+    margin-top: 8%;
+}
+
+.text-left-middle-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    margin-top: 3%;
+}
+
+.pole-metier {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-vertical-pole {
+    margin-right: 50%;
+}
+
+.left-vertical-pole {
+    margin-left: -5%;
+}
+
+.text {
+    width: 80%;
+    margin-bottom: 8%;
+    margin-left: 25%;
+}
+
+.sous-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.all-team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-vertical-team {
+    margin-right: 47%;
+}
+
+.left-vertical-team {
+    margin-left: -4%;
 }
