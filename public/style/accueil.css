@@ -661,6 +661,10 @@ button img {
         margin-left: 6.5%;
     }
 
+    .name {
+        font-size: 50px;
+    }
+
 }
 
 
@@ -879,6 +883,10 @@ button img {
         margin-top: -43%;
         margin-left: 22.5%;
     }
+
+    .name {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width : 500px){
@@ -984,6 +992,10 @@ button img {
     .contenu-parcours-lycee{
         margin-top: -48%;
         margin-left: 24%;
+    }
+
+    .name {
+        font-size: 35px;
     }
 }
 
