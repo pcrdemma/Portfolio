@@ -106,7 +106,7 @@ a {
 
 @media screen and (max-width: 665px) {
     .title-article {
-        margin-top: 20%;
+        margin-top: 25%;
     }
 
     .schema-explicatif {
@@ -137,7 +137,7 @@ a {
 
 @media screen and (max-width:425px) {
     .title-article {
-        margin-top: 20%;
+        margin-top: 25%;
     }
 
     .schema-explicatif {
