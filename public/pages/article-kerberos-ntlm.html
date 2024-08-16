@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/public/style/navbar.css">
-    <link rel="stylesheet" type="text/css" href="/public/style/article-kerberos-ntlm.css">
-    <link rel="stylesheet" type="text/css" href="/public/style/footer.css">
+    <link rel="stylesheet" type="text/css" href="../style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../style/article-kerberos-ntlm.css">
+    <link rel="stylesheet" type="text/css" href="../style/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
@@ -22,25 +22,25 @@
     <div class="main">
         <div class="header">
             <div class="logo-portfolio">
-                <img src="/public/img/logo_navbar.png" alt="logo" id="logo-portfolio">
+                <img src="../img/logo_navbar.png" alt="logo" id="logo-portfolio">
             </div>
             <div class="text-navbar">
-                <a href="/public/index.html">
+                <a href="../index.html">
                     <div class="home-header">
                         <p>Accueil</p>
                     </div>
                 </a>
-                <a href="/public/pages/entreprise.html">
+                <a href="../pages/entreprise.html">
                     <div class="about-me-header">
                         <p>L'entreprise</p>
                     </div>
                 </a>
-                <a href="/public/pages/article.html">
+                <a href="../pages/article.html">
                     <div class="project-header">
                         <p>Articles</p>
                     </div>
                 </a>
-                <a href="/public/pages/contact.html">
+                <a href="../pages/contact.html">
                     <div class="contact-header">
                         <p>Contact</p>
                     </div>
@@ -65,7 +65,7 @@
                 Il est utilisé pour vérifier l’identité d’un utilisateur ou d’une machine sur un réseau en se basant sur
                 un système de challenge-response.<br><br>
                 Voici un schéma explicatif du fonctionnement de NTLM :<br><br>
-                <img src="/public/img/schema-ntlm.png" alt="ntlm" id="schema-ntlm"><br><br>
+                <img src="../img/schema-ntlm.png" alt="ntlm" id="schema-ntlm"><br><br>
                 <span class="important">Qu'est-ce que le kerberos ?</span> <br>
                 <span class="important">Kerberos est un protocole d’authentification réseau</span> qui repose sur un
                 mécanisme de clés secrètes et
@@ -80,45 +80,45 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="apercu-step">
-                        <img src="/public/img/step1.png" alt="apercu" id="apercu-step1" class="popup-image">
+                        <img src="../img/step1.png" alt="apercu" id="apercu-step1" class="popup-image">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="apercu-step">
-                        <img src="/public/img/step2.png" alt="apercu" id="apercu-step2" class="popup-image">
+                        <img src="../img/step2.png" alt="apercu" id="apercu-step2" class="popup-image">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="apercu-step">
-                        <img src="/public/img/step3.png" alt="apercu" id="apercu-step3" class="popup-image">
+                        <img src="../img/step3.png" alt="apercu" id="apercu-step3" class="popup-image">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="apercu-step">
-                        <img src="/public/img/step4.png" alt="apercu" id="apercu-step4" class="popup-image">
+                        <img src="../img/step4.png" alt="apercu" id="apercu-step4" class="popup-image">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="apercu-step">
-                        <img src="/public/img/step5.png" alt="apercu" id="apercu-step5" class="popup-image">
+                        <img src="../img/step5.png" alt="apercu" id="apercu-step5" class="popup-image">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="apercu-step">
-                        <img src="/public/img/step6.png" alt="apercu" id="apercu-step6" class="popup-image">
+                        <img src="../img/step6.png" alt="apercu" id="apercu-step6" class="popup-image">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="apercu-step">
-                        <img src="/public/img/step7.png" alt="apercu" id="apercu-step7" class="popup-image">
+                        <img src="../img/step7.png" alt="apercu" id="apercu-step7" class="popup-image">
                     </div>
                 </div>
             </div>
             <button class="carousel-control-prev" onclick="prevArticle()">
-                <img src="/public/img/left-arrow.png" alt="left-arrow" id="left-arrow">
+                <img src="../img/left-arrow.png" alt="left-arrow" id="left-arrow">
             </button>
             <button class="carousel-control-next" onclick="nextArticle()">
-                <img src="/public/img/right-arrow.png" alt="right-arrow" id="right-arrow">
+                <img src="../img/right-arrow.png" alt="right-arrow" id="right-arrow">
             </button>
             <div class="carousel-indicators">
                 <span class="dot" onclick="currentArticle(1)"></span>
@@ -137,46 +137,46 @@
         </div>
         <br>
         <br>
-        <a href="/public/pages/article.html" class="retour">Retour</a>
+        <a href="../pages/article.html" class="retour">Retour</a>
     </div>
-    <script src="/public/script/carousel.js"></script>
-    <script src="/public/script/popup-carousel-kerberos.js"></script>
+    <script src="../script/carousel.js"></script>
+    <script src="../script/popup-carousel-kerberos.js"></script>
 </body>
 <!--FOOTER-->
 <footer>
     <div class="footer">
         <div class="data-footer">
             <div class="footer-logo">
-                <a href="/public/index.html">
-                    <img src="/public/img/big-logo.png" alt="logo" id="logo-footer" class="big-logo">
+                <a href="../index.html">
+                    <img src="../img/big-logo.png" alt="logo" id="logo-footer" class="big-logo">
                 </a>
                 <div class="link-social">
                     <a href="https://www.linkedin.com/in/emma-picard/">
-                        <img src="/public/img/linkedin.png" alt="logo" id="logo-footer" class="logo-linkedin">
+                        <img src="../img/linkedin.png" alt="logo" id="logo-footer" class="logo-linkedin">
                     </a>
                     <a href="https://github.com/pcrdemma">
-                        <img src="/public/img/github.png" alt="logo" id="logo-footer"class="logo-github">
+                        <img src="../img/github.png" alt="logo" id="logo-footer"class="logo-github">
                     </a>
                 </div>
             </div>
             <div class="footer-navigation-text">
                 Navigation
-                <a href="/public/pages/index.html">
+                <a href="../pages/index.html">
                     <div class="home-footer">
                         <p>Accueil</p>
                     </div>
                 </a>
-                <a href="/public/pages/entreprise.html">
+                <a href="../pages/entreprise.html">
                     <div class="about-me-footer">
                         <p>L'entreprise</p>
                     </div>
                 </a>
-                <a href="/public/pages/article.html">
+                <a href="../pages/article.html">
                     <div class="project-footer">
                         <p>Articles</p>
                     </div>
                 </a>
-                <a href="/public/pages/contact.html">
+                <a href="../pages/contact.html">
                     <div class="contact-footer">
                         <p>Contact</p>
                     </div>
