@@ -263,6 +263,7 @@ button img {
     margin-top: 2%;
 }
 
+
 @media screen and (max-width: 1440px) {
     .middle-container {
         margin-top: 6%;
@@ -301,6 +302,19 @@ button img {
     }
 
 }
+
+@media screen and (max-width: 1276px){
+    .contenu-parcours{
+        margin-top:-24%;
+    }
+}
+
+@media screen and (max-width: 1091px){
+    .contenu-parcours{
+        margin-top:-28%;
+    }
+}
+
 
 @media screen and (max-width: 1024px) {
 
@@ -412,6 +426,59 @@ button img {
     
 }
 
+
+@media screen and (max-width: 943px){   
+
+    .duree{
+        height: 187px;
+        margin-left: 4%;
+    }
+    .duree-lycee{
+        margin-left: 4%;
+    }
+}
+
+
+@media screen and (max-width: 847px){   
+
+    .contenu-parcours{
+        margin-top: -31%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -5%;
+    }
+
+    .duree{
+        height: 187px;
+        margin-left: 4.5%;
+    }
+    .duree-lycee{
+        margin-left: 4.5%;
+        position: fixed;
+    }
+}
+
+
+@media screen and (max-width: 782px){   
+    .contenu-parcours{
+        margin-top: -34%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -6%;
+    }
+
+    .duree{
+        height: 187px;
+        margin-left: 5%;
+    }
+    .duree-lycee{
+        margin-left: 5%;
+        position: fixed;
+    }
+}
+
 @media screen and (max-width: 768px){
     .name {
         font-size: 40px;
@@ -513,6 +580,263 @@ button img {
         height: 55px;
     }
 }
+
+@media screen and (max-width: 740px){   
+    .contenu-parcours{
+        margin-top: -35%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -5%;
+    }
+
+    .duree{
+        height: 187px;
+        margin-left: 4.5%;
+    }
+    .duree-lycee{
+        margin-left: 4.5%;
+        position: fixed;
+    }
+}
+
+
+@media screen and (max-width: 719px){   
+    .contenu-parcours{
+        margin-top: -35%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -5%;
+    }
+
+    .duree{
+        height: 187px;
+        margin-left: 4.5%;
+    }
+    .duree-lycee{
+        margin-left: 4.5%;
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 673px){   
+    .contenu-parcours{
+        margin-top: -38%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -5%;
+    }
+
+    .duree{
+        height: 187px;
+        margin-left: 4.5%;
+    }
+    .duree-lycee{
+        margin-left: 4.5%;
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 658px){   
+    .contenu-parcours{
+        margin-top: -38%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -5%;
+    }
+
+    .duree{
+        height: 187px;
+        margin-left: 4.8%;
+    }
+    .duree-lycee{
+        margin-left: 4.8%;
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 600px){   
+    .contenu-parcours{
+        margin-top: -42%;
+    }
+
+    .duree{
+        height: 187px;
+        margin-left: 5.5%;
+    }
+    .duree-lycee{
+        margin-left: 5.5%;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 20%;
+    }
+}
+
+@media screen and (max-width: 539px){   
+    .contenu-parcours{
+        margin-top: -46%;
+    }
+}
+
+@media screen and (max-width: 481px){   
+    .contenu-parcours{
+        margin-top: -52%;
+    }
+
+    .duree{
+        height: 187px;
+        margin-left: 6.5%;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    .name {
+        font-size: 25px;
+    }
+
+    .sentence {
+        font-size: 8px;
+    }
+
+    .me{
+        height: 130px;
+        width: 90px;
+    }
+
+    .top-container {
+        display: flex;
+        margin-top: 20%;
+        justify-content: space-evenly;
+    }
+    
+    .title {
+        font-size: 15px;
+    }
+
+    .middle-container {
+        margin-top: 15%;
+    }
+
+    #cv{
+        height: 130px;
+        width: 85px;
+    }
+
+    button{
+        width: 100px;
+        font-size: 6px;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    .download-image{
+        width: 10px;
+        height: 10px;
+    }
+
+    .text-left-middle-part{
+        margin-left: 8%;
+        font-size: 6px;
+        text-align: justify;
+        width: 50%;
+        height: 40%;
+    }
+
+    .cv-right-middle-part {
+        margin-top: 5%;
+    }
+
+    .informations{
+        margin-top: 23%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 6px;
+        margin-bottom: 30%;
+    }
+
+    #localisation{
+        width: 10px;
+        height: 10px;
+    }
+
+    #mail{
+        width: 10px;
+        height: 10px;
+    }
+
+    #linkedin{
+        width: 10px;
+        height: 10px;
+    }
+
+    #github{
+        width: 10px;
+        height: 10px;
+    }
+
+    .container-date {
+        width: 30px;
+        height: 5px;
+    }
+
+    .dates {
+        font-size: 3.5px;
+        line-height: 1.5;
+        margin-top: -60%;
+    }
+
+    .duree{
+        margin-left: 4%;
+        height: 200px;
+        border-left: 1px solid #cedfff;
+    }
+
+    .duree-lycee {
+        border-left: 1px solid #FBFDFF;
+    }
+
+    .informations-duree-lycee {
+        margin-top: 0;
+    }
+
+    .contenu-parcours{
+        margin-top: -57%;
+        margin-bottom: 0px;
+        font-size: 6px;
+        margin-left: 17%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -5%;
+        font-size: 6px;
+        margin-bottom: 0px;
+        margin-left: 17%;
+    }
+
+    #logo-com-company {
+        width: 20px;
+        height: 12px;
+    }
+
+    #logo-ynov {
+        width: 20px;
+        height: 10px;
+    }
+
+    #logo-lycee {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
 
 @media screen and (max-width: 425px){
     .name {
@@ -634,7 +958,7 @@ button img {
     }
 
     .contenu-parcours-lycee{
-        margin-top: -43%;
+        margin-top: -5%;
         font-size: 6px;
         margin-bottom: 0px;
         margin-left: 17%;
@@ -769,14 +1093,14 @@ button img {
     }
 
     .contenu-parcours{
-        margin-top: -62%;
+        margin-top: -59%;
         margin-bottom: 0px;
         font-size: 6px;
         margin-left: 17%;
     }
 
     .contenu-parcours-lycee{
-        margin-top: -48%;
+        margin-top: -5%;
         font-size: 6px;
         margin-bottom: 0px;
         margin-left: 17%;
@@ -796,6 +1120,28 @@ button img {
         width: 20px;
         height: 20px;
     }
+}
+
+@media screen and (max-width: 390px){
+    .contenu-parcours{
+        margin-top: -62%;
+    }
+
+}
+
+
+@media screen and (max-width: 370px){
+    .contenu-parcours{
+        margin-top: -66%;
+    }
+
+}
+
+@media screen and (max-width: 345px){
+    .contenu-parcours{
+        margin-top: -70%;
+    }
+
 }
 
 @media screen and (max-width: 320px){
