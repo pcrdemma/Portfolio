@@ -1031,7 +1031,7 @@ button img {
     }
 
     .informations{
-        margin-top: -130%;
+        margin-top: -140%;
     }
 
     .cv-right-middle-part{
@@ -1054,4 +1054,7 @@ button img {
         margin-left: 26%;
     }
     
+    .title{
+        margin-top: 8%;
+    }
 }
