@@ -81,6 +81,7 @@ a {
 @media screen and (max-width:768px) {
     .title-article {
         font-size: 30px;
+        margin-top: 15%;
     }
 
     .text-article1 {
@@ -103,9 +104,33 @@ a {
 
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 665px) {
     .title-article {
         margin-top: 15%;
+    }
+
+    .schema-explicatif {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image-analyse-log {
+        width: 318px;
+        height: 147px;
+        margin-right: 10%;
+    }
+
+    #image-log-collector {
+        width: 307px;
+        height: 135px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .title-article {
+        margin-top: 20%;
     }
 
     .schema-explicatif {
@@ -131,9 +156,5 @@ a {
         height: auto;
         margin-bottom: -25%;
 
-    }
-
-    .container-article{
-        margin-bottom: -59%;
     }
 }
