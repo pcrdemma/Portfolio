@@ -1019,3 +1019,39 @@ button img {
         margin-left: 25%;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .sentence {
+        font-size: 14px;
+    }
+
+    #cv {
+        height: 300px;
+        width: 200px;
+    }
+
+    .informations{
+        margin-top: -130%;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 90%;
+    }
+
+    .container-date{
+        width: 65px;
+        height: 40px;
+    }
+
+    .dates{
+        font-size: 8px;
+        line-height: 1.5;
+        margin-top: -13%;
+    }
+
+    .contenu-parcours{
+        margin-top: -60%;
+        margin-left: 26%;
+    }
+    
+}
