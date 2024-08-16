@@ -466,48 +466,60 @@ a {
     }
 }
 
-@media screen and (max-width:425px){
-    .title-article{
-        margin-top: 15%;
-    }
-
-    .text-article3{
-        margin-left: 10%;
-    }
-
-    #openPopup.important {
-        margin-left: 10%;
-    }
-
-    #siem-architecture {
-        width: 414px;
-        height: 279px;
-    }
-
-    .explication-siem{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #wazuh{
-        width: 90px;
-        height: 55px;
-        
-    }
-
-    .text-article4{
-        margin-left: 0;
-        width: 100%;
-    }
-
+@media screen and (max-width : 660px){
     .container-all-cards{
         display: flex;
         flex-direction: column;
     }
 
-    .wazuh-article{
-        margin-bottom: -75%;
+    .title-article{
+        margin-top: 20%;
+    }
+
+    .text-article3{
+        margin-left: 2%;
+    }
+
+    #openPopup.important{
+        margin-left: 1%;
+    }
+}
+
+@media screen and (max-width : 560px){
+    .text-article3{
+        margin-left: 9%;
+    }
+
+    #openPopup.important{
+        margin-left: 8.5%;
+    }
+}
+
+@media screen and (max-width :550px){
+    #siem-architecture{
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width :500px){
+    #siem-architecture{
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width :450px){
+    #siem-architecture{
+        width: 414px;
+        height: 279px;
+    }
+}
+
+
+@media screen and (max-width:420px){
+    #siem-architecture{
+        width: 380px;
+        height: 250px;
     }
 }
