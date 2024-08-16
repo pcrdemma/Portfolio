@@ -1030,6 +1030,10 @@ button img {
         margin-top: -50%;
         margin-left: 25%;
     }
+
+    .sentence {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 420px) {

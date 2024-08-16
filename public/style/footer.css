@@ -77,6 +77,10 @@ footer{
         width: 147px;
     }
 
+    .footer-artcilce{
+        margin-top: 22.5%;
+    }
+
 }
 
 @media screen and (max-width: 768px){
