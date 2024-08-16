@@ -106,7 +106,7 @@ a {
 
 @media screen and (max-width: 665px) {
     .title-article {
-        margin-top: 15%;
+        margin-top: 20%;
     }
 
     .schema-explicatif {
@@ -125,6 +125,13 @@ a {
     #image-log-collector {
         width: 307px;
         height: 135px;
+    }
+
+    #image-decodeur {
+        width: 100%;
+        height: auto;
+        margin-bottom: -25%;
+
     }
 }
 
