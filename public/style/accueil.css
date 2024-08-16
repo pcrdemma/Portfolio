@@ -1053,9 +1053,87 @@ button img {
         margin-top: -60%;
         margin-left: 22.5%;
     }
+
+    .contenu-parcours-lycee{
+        margin-left: 22.5%;
+    }
     
     .title{
         margin-top: 8%;
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width : 400px){
+    .name {
+        font-size: 30px;
+    }
+
+    .sentence {
+        font-size: 13px;
+    }
+
+    #cv {
+        height: 275px;
+        width: 190px;
+    }
+
+    button{
+        width: 180px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .informations{
+        margin-top: -150%;
+        margin-left: 106%;
+    }
+
+    .contenu-parcours{
+        margin-top: -63%;
+        margin-left: 24%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -53%;
+        margin-left: 24%;
+    }
+}
+
+@media screen and (max-width : 380px){
+
+    .sentence {
+        font-size: 12.5px;
+    }
+
+    #cv {
+        height: 250px;
+        width: 180px;
+    }
+
+    .informations{
+        margin-top: -193%;
+        margin-left: 103%;
+        font-size: 11px;
+    }
+
+    button{
+        width: 166px;
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 130%;
+    }
+
+    .contenu-parcours{
+        margin-top: -66%;
+        margin-left: 25%;
+    }
+
+    .contenu-parcours-lycee{
+        margin-top: -56%;
+        margin-left: 25%;
     }
 }
