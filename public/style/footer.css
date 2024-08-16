@@ -34,11 +34,15 @@ footer{
     margin-right: 10%;
 }
 
+.footer-navigation-text, .footer-contact-text{
+    color: #27344c;
+}
+
 .footer-navigation-text p{
     font-family: 'Inter', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
-    color: white; 
+    color: #27344c; 
     transition: color 0.3s;
     margin: 0;
     padding: 5px;
@@ -52,9 +56,9 @@ footer{
 
 .footer-contact-text p{
     font-family: 'Inter', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
-    color: white; 
+    color: #27344c;
     margin: 0;
     padding: 5px;
     cursor: pointer;
@@ -66,11 +70,11 @@ footer{
     border-radius: 5px; /* Optionnel: arrondi des coins du rectangle */
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1020px){
 
     .big-logo{
-        height: 70px;
-        width: 130px;
+        height: 77px;
+        width: 147px;
     }
 
 }
