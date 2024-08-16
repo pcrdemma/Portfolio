@@ -371,6 +371,19 @@ a {
     .top-container{
         margin-top: 10%;
     }
+
+    .title-page{
+        font-size: 35px;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 460px){
+
+    .title-page{
+        font-size: 35px;
+        margin-top: 20%;
+    }
 }
 
 @media screen and (max-width: 440px){
@@ -385,6 +398,11 @@ a {
 
     .right-vertical-team{
         margin-right: 10%;
+    }
+
+    .title-page{
+        font-size: 35px;
+        margin-top: 20%;
     }
 }
 
@@ -408,7 +426,7 @@ a {
 
     .title-page{
         font-size: 30px;
-        margin-top: 15%;
+        margin-top: 20%;
     }
     
 }
