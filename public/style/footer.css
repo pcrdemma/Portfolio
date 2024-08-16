@@ -84,6 +84,9 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+    .footer-article{
+        margin-top: 47.5%;
+    }
     .data-footer{
         display: flex;
         justify-content: space-between;
