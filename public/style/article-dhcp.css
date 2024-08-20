@@ -146,6 +146,18 @@ a {
     background-color: rgba(255, 0, 0, 0.42);
   }
 
+  .decoder{
+    background-color: rgba(255, 247, 8, 0.42);
+  }
+
+  .regex{
+    background-color: rgba(255, 8, 189, 0.42);
+  }
+
+  .rules{
+    background-color: rgba(255, 136, 8, 0.42);
+  }
+
 @media screen and (max-width:768px) {
     .title-article {
         font-size: 30px;

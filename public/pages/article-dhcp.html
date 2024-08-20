@@ -82,10 +82,10 @@
                 </div>
                 Une fois les informations remontées au serveur Wazuh, il va analyser les logs collectés avec les
                 décodeurs et les règles.<br>
-                Pour les logs DHCP j’ai dû créer <span class="important">un décodeur avec la synthaxe regex et des règles pour que le serveur puisse traiter les logs remontés.</span><br>
-                <span class="important">Le décodeur</span> va permettre de <span class="important">décoder/lire les logs</span>, 
+                Pour les logs DHCP j’ai dû créer <span class="decoder">un décodeur </span> avec <span class="regex">la synthaxe regex</span> et <span class="rules">des règles</span> pour que le serveur puisse traiter les logs remontés.<br>
+                <span class="decoder">Le décodeur</span> va permettre de décoder/lire les logs, 
                 celui que j'ai créé décode <span class="id">l’id associé à l’évènement</span> et d’autres informations telles que <span class="date">la date</span>, <span class="time">l’heure </span>etc.<br><br>
-                Dans <span class="important">les règles</span> on retrouve <span class="decoded-as">le décodeur associé à la règle</span>, <span class="id">l’id de l’évènement</span> qu’on souhaite matcher (10)
+                Dans <span class="rules">les règles</span> on retrouve <span class="decoded-as">le décodeur associé à la règle</span>, <span class="id">l’id de l’évènement</span> qu’on souhaite matcher (10)
                 et enfin <span class="severity">un niveau de gravité</span> sur notre règle, en fonction du niveau on sera alerté ou non de cet évènement.<br><br><br>
                 Voici un exemple de décodeur et de règles que j’ai créé pour les logs DHCP :<br><br>
                 <img src="../img/dhcp.png" alt="decodeur" id="image-decodeur" class="clickable-image"><br><br>
