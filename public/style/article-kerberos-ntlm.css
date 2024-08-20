@@ -129,36 +129,43 @@ body {
 #apercu-step1 {
     width: 463px;
     height: 400px;
+    cursor: pointer;
 }
 
 #apercu-step2 {
     width: 520px;
     height: 400px;
+    cursor: pointer;
 }
 
 #apercu-step3 {
     width: 572px;
     height: 400px;
+    cursor: pointer;
 }
 
 #apercu-step4 {
     width: 568px;
     height: 400px;
+    cursor: pointer;
 }
 
 #apercu-step5 {
     width: 624px;
     height: 400px;
+    cursor: pointer;
 }
 
 #apercu-step6 {
     width: 538px;
     height: 400px;
+    cursor: pointer;
 }
 
 #apercu-step7 {
     width: 643px;
     height: 400px;
+    cursor: pointer;
 }
 
 /* Style pour la popup */
@@ -228,6 +235,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+
 
 @media screen and (max-width:768px) {
     .title-article {

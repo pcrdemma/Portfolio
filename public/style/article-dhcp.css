@@ -81,7 +81,6 @@ a {
 /* Style pour l'image clickable */
 .clickable-image {
     cursor: pointer;
-    transition: 0.3s;
   }
   
   .clickable-image:hover {
