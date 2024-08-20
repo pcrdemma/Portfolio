@@ -50,7 +50,7 @@
         <!--END NAVBAR-->
         <!--PRINCIPAL PART-->
         <div class="title-article">
-            Aspects technique des missions
+            Aspects techniques des missions
         </div>
         <div class="container-article">
             <div class="text-article1">
@@ -64,25 +64,31 @@
                 d’adresse IP, une plage d’adresse épuisée ou encore un bail refusé.<br><br>
                 Le serveur DHCP <span class="important">écrit quotidiennement</span> dans des fichiers <span
                     class="important">ce qu’il se passe en temps réel.</span> <br>
-                C’est pourquoi j’ai configuré l’agent Wazuh installé sur ce dernier afin qu’il puisse lire en temps réel
-                ce qu’il se passe et
+                C’est pourquoi j’ai configuré l’agent Wazuh installé sur ce dernier afin qu’il puisse lire ce fichier de
+                log en temps réel
+                et
                 remonter les informations au serveur Wazuh.<br><br><br>
-                Voici comment ça fonctionne :<br><br>
+                Voici comment le processus fonctionne :<br><br>
                 <div class="schema-explicatif">
-                    <img src="../img/log-collector.png" alt="log-collector" id="image-log-collector"><br>
-                    <img src="../img/schema-server-wazuh.png" alt="analyse-log" id="image-analyse-log">
+                    <img src="../img/log-collector.png" alt="log-collector" id="image-log-collector"
+                        class="clickable-image"><br>
+                    <img src="../img/schema-server-wazuh.png" alt="analyse-log" id="image-analyse-log"
+                        class="clickable-image">
                 </div><br><br><br>
+                <!-- Conteneur pour afficher l'image agrandie -->
+                <div id="image-modal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                </div>
                 Une fois les informations remontées au serveur Wazuh, il va analyser les logs collectés avec les
                 décodeurs et les règles.<br>
-                Pour les logs DHCP j’ai dû créer <span class="important">un décodeur et des règles pour que le serveur
-                    puisse traiter les logs
-                    remontés.</span><br>
-                    <span class="important">Le décodeur</span> va permettre de <span class="important">décoder/lire les logs</span>, celui que j'ai créé décode l’id associé à l’évènement et d’autres
-                informations telles que la date, l’heure etc.<br><br>
-                Dans <span class="important">les règles</span> on retrouve le décodeur associé à la règle, l’id de l’évènement qu’on souhaite matcher
-                et enfin un niveau gravité sur notre règle, en fonction du niveau on sera alerté ou non de cet évènement.<br><br><br>
+                Pour les logs DHCP j’ai dû créer <span class="important">un décodeur avec la synthaxe regex et des règles pour que le serveur puisse traiter les logs remontés.</span><br>
+                <span class="important">Le décodeur</span> va permettre de <span class="important">décoder/lire les logs</span>, 
+                celui que j'ai créé décode <span class="id">l’id associé à l’évènement</span> et d’autres informations telles que <span class="date">la date</span>, <span class="time">l’heure </span>etc.<br><br>
+                Dans <span class="important">les règles</span> on retrouve <span class="decoded-as">le décodeur associé à la règle</span>, <span class="id">l’id de l’évènement</span> qu’on souhaite matcher (10)
+                et enfin <span class="severity">un niveau de gravité</span> sur notre règle, en fonction du niveau on sera alerté ou non de cet évènement.<br><br><br>
                 Voici un exemple de décodeur et de règles que j’ai créé pour les logs DHCP :<br><br>
-                <img src="../img/dhcp.png" alt="decodeur" id="image-decodeur"><br><br>
+                <img src="../img/dhcp.png" alt="decodeur" id="image-decodeur" class="clickable-image"><br><br>
             </div>
             <br>
             <br>
@@ -93,6 +99,7 @@
             <a href="../pages/article.html" class="retour">Retour</a>
         </div>
     </div>
+    <script src="../script/big-up.js"></script>
 </body>
 <!--FOOTER-->
 <footer>
@@ -107,7 +114,7 @@
                         <img src="../img/linkedin.png" alt="logo" id="logo-footer" class="logo-linkedin">
                     </a>
                     <a href="https://github.com/pcrdemma">
-                        <img src="../img/github.png" alt="logo" id="logo-footer"class="logo-github">
+                        <img src="../img/github.png" alt="logo" id="logo-footer" class="logo-github">
                     </a>
                 </div>
             </div>
