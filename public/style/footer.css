@@ -54,7 +54,7 @@ footer{
     border-radius: 5px; /* Optionnel: arrondi des coins du rectangle */
 }
 
-.footer-contact-text p{
+.phone-footer p, .mail-footer p{
     font-family: 'Inter', sans-serif;
     font-weight: 200;
     font-style: italic;
@@ -64,11 +64,22 @@ footer{
     cursor: pointer;
 }
 
+.adress-lyon-footer p, .adresse-alsace-footer p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: #27344c;
+    margin: 0;
+    padding: 5px;
+    cursor: default;
+}
+
 .footer-contact-text a:hover p, .footer-contact-text a:focus p, .footer-contacts-text a.active p {
     color: black;
     background-color: #FCFDFF;
     border-radius: 5px; /* Optionnel: arrondi des coins du rectangle */
 }
+
 
 @media screen and (max-width: 1020px){
 

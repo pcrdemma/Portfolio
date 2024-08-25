@@ -8,7 +8,8 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 10%;
-    width: 100%;
+    width: 85%;
+    margin-left: 5%;
 }
 
 .welcom-left-part {
@@ -41,8 +42,9 @@ p {
 .me{
     width: 20%;
     margin-top: 5%;
-    height: 350px;
-    width: 256px;
+    height: auto;
+    width: 290px;
+    border-radius: 8px;
 }
 
 .middle-container {
