@@ -16,9 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    margin-left: 10%;
-    width: 80%;
-    margin-top: 5%;
+    
 }
 
 .important {
@@ -27,8 +25,50 @@ body {
 }
 
 .text-article1 {
+    width: 80vw;
+    height: 22vh;
+    background-color: rgba(35, 100, 225, 0.6);
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-top: 5%;
+}
+
+.text-article2 {
+    width: 80vw;
+    height: 18vh;
+    background-color: rgba(35, 100, 225, 0.4);
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-top: 1.5%;
+}
+
+.text-article3 {
+    width: 80vw;
+    height: 25vh;
+    background-color: rgba(35, 100, 225, 0.2);
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-top: 1.5%;
+}
+
+.text-article4 {
+    width: 80vw;
+    height: 30vh;
+    background-color: rgba(35, 100, 225, 0.1);
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-top: 1.5%;
+}
+
+.heure{
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contenu{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
 }
 
 .retour {
@@ -36,7 +76,7 @@ body {
     font-size: 20px;
     color: #8BA5D8;
     transition: color 0.3s;
-    margin: 0;
+    margin-left: 10%;
     padding: 5px;
 }
 
