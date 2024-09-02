@@ -312,6 +312,9 @@ button img {
     .contenu-parcours-lycee{
         margin-top:-18%;
     }
+    .cv-right-middle-part{
+        margin-bottom: 12%;
+    }
 }
 
 @media screen and (max-width:1180px){
@@ -326,6 +329,9 @@ button img {
 
     .contenu-parcours-lycee{
         margin-top:-20%;
+    }
+    .cv-right-middle-part{
+        margin-bottom: 16%;
     }
 }
 
@@ -363,6 +369,9 @@ button img {
         margin-top:-22%;
         margin-left:16%;
     }
+    .cv-right-middle-part{
+        margin-bottom: 20%;
+    }
 
 }
 
@@ -392,6 +401,10 @@ button img {
     .contenu-parcours-lycee{
         margin-left:16%;
         margin-top: -23%;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 23%;
     }
 }
 
@@ -459,7 +472,7 @@ button img {
     }
 
     .cv-right-middle-part{
-        margin-bottom: 20%;
+        margin-bottom: 37%;
     }
 
     .container-date {
@@ -527,6 +540,10 @@ button img {
     .duree{
         margin-left: 4.7%;
     }
+
+    .cv-right-middle-part{
+        margin-bottom: 43%;
+    }
 }
 
 
@@ -578,6 +595,10 @@ button img {
         height: 360px;
         width: 250px;
     } 
+
+    .cv-right-middle-part{
+        margin-bottom: 50%;
+    }
 }
 
 @media screen and (max-width: 840px){   
@@ -641,6 +662,10 @@ button img {
         margin-left: 6%;
     }
 
+    .cv-right-middle-part{
+        margin-bottom: 57%;
+    }
+
 }
 
 
@@ -685,6 +710,10 @@ button img {
         font-size: 50px;
     }
 
+    .cv-right-middle-part{
+        margin-bottom: 70%;
+    }
+
 }
 
 
@@ -715,6 +744,8 @@ button img {
         margin-left: 6.5%;
     }
 
+   
+
 }
 
 
@@ -737,6 +768,16 @@ button img {
     .duree{
         margin-left: 7%;
     }
+
+    .cv-right-middle-part{
+        margin-bottom: 60%;
+    }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -73%;
+    }
+
 
 }
 
@@ -775,7 +816,7 @@ button img {
 @media screen and (max-width: 620px){   
 
     .cv-right-middle-part{
-        margin-bottom: 40%;
+        margin-bottom: 60%;
     }
 
     .contenu-parcours{
@@ -788,6 +829,11 @@ button img {
 
     .name {
         font-size: 43px;
+    }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -82%;
     }
 }
 
@@ -805,11 +851,16 @@ button img {
     }
 
     .cv-right-middle-part{
-        margin-bottom: 50%;
+        margin-bottom: 70%;
     }
 
     .name {
         font-size: 42px;
+    }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -98%;
     }
 
 }
@@ -823,7 +874,7 @@ button img {
         width: 250px;
     }
     .cv-right-middle-part{
-        margin-bottom: 55%;
+        margin-bottom: 80%;
     }
 
     .contenu-parcours{
@@ -852,6 +903,11 @@ button img {
 
     .name {
         font-size: 40px;
+    }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -115%;
     }
     
 }
@@ -893,7 +949,7 @@ button img {
     }
 
     .cv-right-middle-part{
-        margin-bottom: 70%;
+        margin-bottom: 90%;
     }
 
     #cv {
@@ -903,6 +959,11 @@ button img {
     .name {
         font-size: 40px;
         margin-left: -3%;
+    }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -123%;
     }
     
 }
@@ -915,7 +976,7 @@ button img {
     }
 
     .cv-right-middle-part{
-        margin-bottom: 50%;
+        margin-bottom: 110%;
     }
 
     .contenu-parcours{
@@ -932,12 +993,17 @@ button img {
         font-size: 40px;
         margin-left: -7%;
     }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -140%;
+    }
 }
 
 @media screen and (max-width : 500px){
     .name {
         font-size: 40px;
-        margin-left: -12%;
+        margin-left: -14%;
     }
 
     .sentence {
@@ -956,9 +1022,6 @@ button img {
         margin-bottom: 10%;
     }
 
-    .informations{
-        margin-top: -65%;
-    }
 
     .duree{
         margin-left: 7.5%;
@@ -972,6 +1035,15 @@ button img {
     .contenu-parcours-lycee{
         margin-top: -44%;
         margin-left: 22.5%;
+    }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -173%;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 130%;
     }
 }
 
@@ -996,10 +1068,6 @@ button img {
 
     .informations{
         margin-top: -90%;
-    }
-
-    .cv-right-middle-part{
-        margin-bottom: 60%;
     }
 
     #logo-com-company{
@@ -1029,26 +1097,27 @@ button img {
         text-align: justify;
         width: 92%;
     }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -200%;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 140%;
+    }
 }
 
 
 @media screen and (max-width: 460px){
     .name {
         font-size: 40px;
-        margin-left: -16%;
+        margin-left: -21%;
     }
 
     .sentence {
         font-size: 16px;
-        margin-left: -16%;
-    }
-    .informations{
-        margin-top: -123%;
-        margin-left: 112%;
-    }
-
-    .cv-right-middle-part{
-        margin-bottom: 70%;
+        margin-left: -21%;
     }
 
     .contenu-parcours{
@@ -1061,8 +1130,13 @@ button img {
         margin-left: 24%;
     }
 
-    .name {
-        font-size: 35px;
+    .informations{
+        margin-left: 107%;
+        margin-top: -230%;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 165%;
     }
 }
 
@@ -1082,10 +1156,6 @@ button img {
         margin-bottom: 12%;
     }
 
-    .cv-right-middle-part{
-        margin-bottom: 80%;
-    }
-
     .contenu-parcours{
         margin-top: -58.5%;
         margin-left: 25%;
@@ -1102,6 +1172,10 @@ button img {
 }
 
 @media screen and (max-width: 420px) {
+    .name {
+        font-size: 33px;
+    }
+
     .sentence {
         font-size: 14px;
     }
