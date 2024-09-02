@@ -1195,14 +1195,6 @@ button img {
         width: 200px;
     }
 
-    .informations{
-        margin-top: -140%;
-    }
-
-    .cv-right-middle-part{
-        margin-bottom: 95%;
-    }
-
     .container-date{
         width: 65px;
         height: 40px;
@@ -1226,6 +1218,15 @@ button img {
     .title{
         margin-top: 8%;
         font-size: 20px;
+    }
+
+    .informations{
+        margin-left: 107%;
+        margin-top: -230%;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 190%;
     }
 }
 
