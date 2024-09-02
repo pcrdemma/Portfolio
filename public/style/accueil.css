@@ -1108,6 +1108,16 @@ button img {
     }
 }
 
+@media screen and (max-width: 470px){
+    .informations{
+        margin-left: 107%;
+        margin-top: -230%;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 165%;
+    }
+}
 
 @media screen and (max-width: 460px){
     .name {
