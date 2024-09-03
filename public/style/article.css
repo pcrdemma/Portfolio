@@ -189,6 +189,14 @@ a {
     align-items: center;
 }
 
+#apercu-journee-type-article{
+    width: 325px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #apercu-com-company-article{
     width: 250px;
     height: 150px;
@@ -277,6 +285,11 @@ a {
     #apercu-com-company-article{
         width: 230px;
         height: 150px;
+    }
+
+    #apercu-journee-type-article{
+        width: 260px;
+        height: 241px;
     }
 }
 
@@ -580,6 +593,11 @@ a {
     #apercu-kerberos-article{
         width: 230px;
         height: 140px;
+    }
+
+    #apercu-journee-type-article{
+        width: 208px;
+        height: 188px;
     }
 
     #apercu-com-company-article{
@@ -1016,6 +1034,11 @@ a {
         width: 130px;
         height: 84px;
     }
+
+    #apercu-journee-type-article{
+        width: 107px;
+        height: 97px;
+    } 
 
     #apercu-com-company-article{
         width: 103px;
