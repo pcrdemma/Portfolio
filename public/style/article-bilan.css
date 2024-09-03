@@ -62,3 +62,36 @@ a {
     border-radius: 5px;
     font-size: 20px;
 }
+
+@media screen and (max-width:1028px) {
+    .title-article {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title-article {
+        font-size: 30px;
+        margin-top: 15%;
+    }
+
+    .text-article1 {
+        font-size: 13px;
+    }
+    .retour{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .title-article {
+        font-size: 25px;
+        margin-top: 20%;
+    }
+
+    .text-article1 {
+        font-size: 12px;
+    }
+
+   
+}

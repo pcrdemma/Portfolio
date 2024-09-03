@@ -963,7 +963,7 @@ button img {
 
     .informations{
         margin-left: 107%;
-        margin-top: -123%;
+        margin-top: -200%;
     }
     
 }
@@ -996,7 +996,7 @@ button img {
 
     .informations{
         margin-left: 107%;
-        margin-top: -140%;
+        margin-top: -200%;
     }
 }
 
@@ -1039,7 +1039,7 @@ button img {
 
     .informations{
         margin-left: 107%;
-        margin-top: -173%;
+        margin-top: -217%;
     }
 
     .cv-right-middle-part{
@@ -1100,7 +1100,7 @@ button img {
 
     .informations{
         margin-left: 107%;
-        margin-top: -200%;
+        margin-top: -290%;
     }
 
     .cv-right-middle-part{
@@ -1111,7 +1111,7 @@ button img {
 @media screen and (max-width: 470px){
     .informations{
         margin-left: 107%;
-        margin-top: -230%;
+        margin-top: -370%;
     }
 
     .cv-right-middle-part{
@@ -1142,7 +1142,7 @@ button img {
 
     .informations{
         margin-left: 107%;
-        margin-top: -230%;
+        margin-top: -370%;
     }
 
     .cv-right-middle-part{
@@ -1178,6 +1178,10 @@ button img {
 
     .sentence {
         font-size: 14px;
+    }
+
+    .cv-right-middle-part{
+        margin-bottom: 180%;
     }
 }
 
