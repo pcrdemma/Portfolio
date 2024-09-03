@@ -68,7 +68,8 @@ body {
 
 .contenu{
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
+    padding-right: 2%;
 }
 
 .retour {
@@ -86,4 +87,68 @@ body {
     background-color: #8BA5D8;
     border-radius: 5px;
     font-size: 20px;
+}
+
+@media screen and (max-width:1028px) {
+    .title-article {
+        margin-top: 10%;
+    }
+    .contenu {
+        margin-top: -1%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .title-article {
+        font-size: 30px;
+        margin-top: 15%;
+    }
+    .heure {
+        font-size: 17px;
+    }
+    .contenu {
+        font-size: 12px;
+    }
+
+    .retour {
+        font-size: 15px;
+    }
+
+    .text-article2 {
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .title-article {
+        font-size: 25px;
+        margin-top: 20%;
+    }
+
+    .text-article1 {
+        height: 26vh;
+    }
+
+    .text-article2 {
+        height: 23vh;
+    }
+
+    .text-article3 {
+        height: 22vh;
+    }
+
+    .text-article4 {
+        height: 35vh;
+    }
+    .heure {
+        font-size: 15px;
+    }
+    .contenu {
+        font-size: 11.5px;
+    }
+
+    .retour {
+        font-size: 15px;
+    }
 }
